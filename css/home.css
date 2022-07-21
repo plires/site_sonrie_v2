@@ -1,0 +1,556 @@
+/* HOME */
+.home {
+	position: relative;
+}
+
+/* Pos Header */
+.home .pos_header {
+	background: url('../img/home/slide-a-mobile.jpg');
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	min-height: 630px;
+	height: 630px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.home .pos_header .container {
+	height: 100%!important;
+}
+
+.home .pos_header .row {
+	height: 100%!important;
+	display: flex;
+	align-items: flex-end;
+	text-align: right;
+}
+
+.home .pos_header h1 {
+	font-weight: 700;
+	color: var(--secondary-color);
+	margin-bottom: 10px;
+}
+
+.home .pos_header p {
+	color: var(--secondary-color);
+}
+
+.home .pos_header .cta {
+	display: inline-block;
+	margin-top: 10px;
+}
+/* Pos Header end */
+
+/* Tecnología en Manos */
+.home .tecnologia_en_manos {
+	margin-bottom: 60px;
+}
+
+.home .tecnologia_en_manos h2 {
+	color: var(--primary-color);
+	font-weight: 700;
+	font-size: 1.125rem;
+	margin-bottom: 12px;
+}
+/* Tecnología en Manos end */
+
+/* Programas */
+.home .programas {
+	margin-bottom: 30px;
+	background: var(--back-light-color);
+	padding: 60px 0 60px 0;
+}
+
+.home .programas .content_img {
+	text-align: center;
+}
+
+.home .programas .img {
+	margin-bottom: 30px;
+	max-width: 330px;
+}
+
+.home .programas .description {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.home .programas .number_one,
+.home .programas .number_two,
+.home .programas .number_three {
+	display: none;
+}
+
+.home .programas .content {
+	background: white;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+	text-align: center;
+	color: var(--secondary-color);
+}
+
+.home .programas .col-md-4:last-child .content {
+	margin-bottom: 0;
+}
+
+.home .programas .content h3 {
+	margin: auto;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	width: 250px;
+	border-bottom: solid 2px var(--primary-color);
+	font-weight: 700;
+}
+
+.home .programas .content .description_grado {
+	margin: auto;
+	margin-bottom: 30px;
+	width: 250px;
+}
+/* Programas end */
+
+/* Tecnologías Para un Mundo Mejor */
+.home .tecnologias_mundo_mejor {
+	margin-bottom: 30px;
+}
+
+.home .tecnologias_mundo_mejor h2 {
+	color: var(--primary-color);
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.home .tecnologias_mundo_mejor .programa_cooperacion,
+.home .tecnologias_mundo_mejor .centro_desarrollo {
+	background: url('../img/home/programa-cooperacion.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 250px;
+	margin-bottom: 30px;
+}
+
+.home .tecnologias_mundo_mejor .centro_desarrollo {
+	background: url('../img/home/centro-investigacion.jpg');
+}
+
+.home .tecnologias_mundo_mejor h3 {
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.home .tecnologias_mundo_mejor .cta:hover {
+	color: white;
+}
+/* Tecnologías Para un Mundo Mejor end */
+
+/* Ayuda y Doná */
+.home .ayuda_dona {
+	padding-right: 0;
+	padding-left: 0;
+	margin-bottom: 60px;
+}
+/* Ayuda y Doná end */
+
+/* Clientes */
+.home .clientes {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.home .clientes .content_logos img {
+	width: 100px;
+}
+
+.home .clientes .content_logos {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 15px 30px;
+}
+/* Clientes end */
+
+/* Contacto */
+.home .contacto {
+	background: var(--back-light-color);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 0;
+	padding-left: 0;
+}
+/* Contacto end */
+
+/* HOME end */
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Pos Header */
+	.home .pos_header {
+		background: url('../img/home/slide-a.jpg');
+		margin-bottom: 60px;
+	}
+	/* Pos Header end */
+
+	/* Tecnología en Manos */
+	.home .tecnologia_en_manos {
+		margin-bottom: -260px;
+	}
+
+	.home .tecnologia_en_manos .content {
+		background: white;
+		border-radius: 5px;
+		padding: 40px 20px;
+		box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+	}
+	/* Tecnología en Manos end */
+
+	/* Programas */
+	.home .programas {
+		padding: 335px 0 60px 0;
+		margin-bottom: 60px;
+	}
+
+	.home .programas .content_img {
+	text-align: center;
+}
+
+	.home .programas .img {
+		margin-bottom: 60px;
+	}
+	/* Programas end */
+
+	/* Ayuda y Doná */
+	.home .ayuda_dona {
+		background: url('../img/home/chicos.jpg');
+		background-position: 50% 0%;
+		background-repeat: no-repeat;
+		height: 600px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 0;
+	}
+	/* Ayuda y Doná end */
+
+	/* Contacto */
+	.home .contacto {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	/* Contacto end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Tecnología en Manos */
+	.home .tecnologia_en_manos .content {
+		padding: 40px 60px;
+	}
+	/* Tecnología en Manos end */
+
+	/* Tecnologías Para un Mundo Mejor */
+	.home .tecnologias_mundo_mejor {
+		margin-bottom: 60px;
+	}
+
+	.home .tecnologias_mundo_mejor h2 {
+		font-size: 1.25rem;
+		margin-bottom: 20px;
+	}
+
+	.home .tecnologias_mundo_mejor .programa_cooperacion,
+	.home .tecnologias_mundo_mejor .centro_desarrollo {
+		margin-bottom: 0;
+	}
+	/* Tecnologías Para un Mundo Mejor end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Tecnología en Manos */
+	.home .tecnologia_en_manos {
+		margin-bottom: -200px;
+	}
+
+	.home .tecnologia_en_manos h2 {
+		font-size: 1.5rem;
+		margin-bottom: 20px;
+	}
+	/* Tecnología en Manos end */
+
+	/* Programas */
+	.home .programas {
+		margin-bottom: 60px;
+		padding: 260px 0 60px 0;
+	}
+
+	.home .programas .img {
+		margin-bottom: 60px;
+		max-width: 400px;
+	}
+
+	.home .programas .description {
+		margin-bottom: 100px;
+	}
+
+	.home .programas .col-lg-4 {
+		position: relative;
+	}
+
+	.home .programas .content {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		max-width: 90%;
+		margin: auto;
+		min-height: 250px;
+		z-index: 1;
+	}
+
+	.home .programas .number_one,
+	.home .programas .number_two,
+	.home .programas .number_three {
+		display: inline-block;
+		position: absolute;
+		font-size: 10rem;
+		font-weight: 700;
+		color: transparent;
+		text-stroke-width: 2px;
+  	text-stroke-color: green;
+		-webkit-text-stroke-width: 2px;
+  	-webkit-text-stroke-color: var(--primary-color);
+		left: -16px;
+		top: -110px;
+		z-index: 0;
+	}
+
+	.home .programas .number_two {
+		left: -12px;
+	}
+
+	.home .programas .number_three {
+		left: -20px;
+	}
+
+	.home .programas .content:last-child {
+		margin-bottom: 0;
+	}
+
+	.home .programas .content h3 {
+		margin: 0;
+		width: 100%;
+		font-size: 1.25rem;
+	}
+
+	.home .programas .content .description_grado {
+		width: 100%;
+		margin: 0;
+		font-size: 0.9rem;
+	}
+
+	.home .programas .content .btn-primary {
+		width: 100%;
+	}
+	/* Programas end */
+
+	/* Tecnologías Para un Mundo Mejor */
+	.home .tecnologias_mundo_mejor h2 {
+		font-size: 1.5rem;
+	}
+
+	.home .tecnologias_mundo_mejor .programa_cooperacion, 
+	.home .tecnologias_mundo_mejor .centro_desarrollo {
+		min-height: 280px;
+	}
+	/* Tecnologías Para un Mundo Mejor end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Pos Header */
+	.home .pos_header {
+		min-height: 700px;
+		height: 700px;
+	}
+
+	.home .pos_header h1 {
+		margin-bottom: 30px;
+	}
+
+	.home .pos_header p {
+		font-size: 1.125rem;
+	}
+
+	.home .pos_header .cta {
+		font-size: 1.25rem;
+		margin-top: 0;
+	}
+
+	.home .pos_header .cta i {
+		right: -30px;
+	}
+
+	.home .pos_header .cta:hover i {
+		right: -40px;
+	}
+	/* Pos Header end */
+
+	/* Tecnología en Manos */
+	.home .tecnologia_en_manos {
+		margin-bottom: -215px;
+	}
+
+	.home .tecnologia_en_manos h2 {
+		margin-bottom: 30px;
+	}
+
+	.home .tecnologia_en_manos .content {
+		padding: 60px 80px;
+	}
+	/* Tecnología en Manos end */
+
+	/* Programas */
+	.home .programas {
+		padding: 290px 0 60px 0;
+	}
+
+	.home .programas .number_three {
+		left: -18px;
+	}
+
+	.home .programas .content h3 {
+		font-size: 1.5rem;
+	}
+	/* Programas end */
+
+	/* Tecnologías Para un Mundo Mejor */
+	.home .tecnologias_mundo_mejor h2 {
+		margin-bottom: 25px;
+	}
+	/* Tecnologías Para un Mundo Mejor end */
+
+	/* Tecnologías Para un Mundo Mejor */
+	.home .tecnologias_mundo_mejor .programa_cooperacion, 
+	.home .tecnologias_mundo_mejor .centro_desarrollo {
+		min-height: 325px;
+	}
+
+	.home .tecnologias_mundo_mejor h3 {
+		font-size: 2rem;
+		font-weight: 700;
+		margin-bottom: 45px;
+	}
+	/* Tecnologías Para un Mundo Mejor end */
+
+	/* Ayuda y Doná */
+	.home .ayuda_dona {
+		min-height: 680px;
+	}
+	/* Ayuda y Doná end */
+
+}
+
+@media (min-width: 1300px) {
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Pos Header */
+	.home .pos_header {
+		margin-bottom: 100px;
+	}
+	/* Pos Header end */
+
+	/* Programas */
+	.home .programas .content {
+		max-width: 80%;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		min-height: 290px;
+	}
+
+	.home .programas .content h3 {
+		font-size: 1.4rem;
+	}
+
+	.home .programas .number_one,
+	.home .programas .number_two,
+	.home .programas .number_three {
+		left: 0;
+		top: -170px;
+		font-size: 13rem;
+	}
+
+	.home .programas .number_two {
+		left: -20px;
+
+	}
+
+	.home .programas .number_three {
+		left: -15px;
+	}
+
+	.home .programas .content h3,
+	.home .programas .content .description_grado,
+	.home .programas .content .btn-primary {
+		max-width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.home .programas .content .btn-primary {
+		font-size: 0.85rem;
+	}
+
+	.home .programas .description {
+		margin-bottom: 170px;
+	}
+	/* Programas end */
+
+	/* Tecnología en Manos */
+	.home .tecnologia_en_manos .content {
+		padding: 80px 100px;
+	}
+
+	.home .tecnologia_en_manos h2 {
+		font-size: 1.75rem;
+	}
+	/* Tecnología en Manos end */
+
+	/* Tecnologías Para un Mundo Mejor */
+	.home .tecnologias_mundo_mejor h2 {
+		font-size: 1.75rem;
+	}
+	/* Tecnologías Para un Mundo Mejor end */
+
+	/* Ayuda y Doná */
+	.home .ayuda_dona{
+		min-height: 750px;
+	}
+	/* Ayuda y Doná end */
+
+}
+
+@media (min-width: 1600px) {
+
+}

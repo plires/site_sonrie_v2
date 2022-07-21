@@ -1,0 +1,238 @@
+<?php
+	
+	require ('includes/config.inc.php');
+  include_once('includes/soporte.php');
+
+  $current = 'home';
+
+  //Variables Get
+  include_once('includes/get-variable-handling.php');
+
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Tag Manager Head -->
+	<?php include_once("./includes/tag_manager_head.php"); ?>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="En la Fundación Sonríe la Vida buscamos contribuir para que los tratamientos centrados en la Longevidad y el Bienestar Emocional sean accesibles para todos, sin importar su edad, origen, raza, estatus social/económico o género.">
+	<title>Buscamos que vivas Intensamente - sonrie la vida</title>
+
+	<!-- Favicons -->
+	<?php include('includes/favicon.php'); ?>
+
+	<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
+	<link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+	<!-- Tag Manager Body -->
+	<?php include_once("./includes/tag_manager_body.php"); ?>
+
+	<!-- Contenido HOME -->
+	<section id="app" class="transition home">
+
+		<!-- Modal Confirmation -->
+		<?php include('./includes/modal-confirmation-donation.php'); ?>
+
+		<!-- Header -->
+		<?php include_once('./includes/header.php'); ?>
+
+		<!-- Pos Header -->
+		<section id="first_section" class="container-fluid pos_header">
+			<div class="container">
+		  	<div class="row">
+
+			  	<div class="col-lg-6">
+		        <h1>Tecnología aplicada<br>para un mundo más justo</h1>
+		        <p class="description">
+		        	En nuestra fundación trabajamos <strong>acercando la tecnología a las personas.</strong> Queremos ser el <strong>puente</strong> que conecta y provee <strong>igualdad</strong>, aportando mejoras a la salud, el bienestar y la felicidad social. 
+		        </p>
+		        <div class="text-end pe-4">
+		        	<a href="#" class="cta transition">Sumate <i class="fa-solid fa-arrow-right-long transition"></i></a>
+		        </div>
+			  	</div>
+
+		  	</div>
+			</div>
+		</section>
+		<!-- Pos Header end -->
+
+		<!-- Tecnología en Manos -->
+		<section class="container tecnologia_en_manos">
+	  	<div class="row">
+
+		  	<div class="col-lg-12">
+
+		  		<div data-aos="fade-up" class="content">
+		        <h2>Ponemos la tecnología en manos de quienes más lo necesitan.</h2>
+		        <div class="row">
+		        	<div class="col-lg-6">
+		        		<p>
+		        			En la Fundación Sonríe la Vida buscamos <strong>crear vínculos y puentes</strong> que puedan llevar tecnología de avanzada al <strong>tercer sector</strong>, con el único objetivo de contribuir para que los tratamientos centrados en la <strong>Salud, Longevidad y el Bienestar Emocional</strong> sean accesibles para todos, sin importar su edad, origen, raza, estatus socioeconómico o género. 
+		        		</p>
+		        	</div>
+		        	<div class="col-lg-6">
+		        		<p>
+		        			Esto lo logramos mediante diversas acciones, por un lado contamos con nuestro propio centro de Investigación y Desarrollo de vanguardia en el cual realizamos desarrollos tecnológicos sobre el envejecimiento y el equilibrio emocional; por otro lado creamos vínculos entre individuos o corporaciones que crean innovaciones tecnológicas en el campo de la salud y lo acercamos a las personas u otras fundaciones del tercer sector. 
+		        		</p>
+		        	</div>
+		        </div>
+		        <a href="#" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
+		  		</div>
+
+		  	</div>
+
+	  	</div>
+		</section>
+		<!-- Tecnología en Manos end -->
+
+		<!-- Programas -->
+		<section class="container-fluid programas">
+
+			<div class="container">
+	  		<div class="row">
+
+			  	<div class="col-md-10 offset-md-1">
+
+			  		<div data-aos="fade-up" class="content_img">
+		        	<img class="img-fluid img" src="./img/home/grados-bienestar.png" alt="grados bienestar">
+			  		</div>
+		        
+		        <p data-aos="fade-up" class="description">
+		        	Los sentimientos de bienestar personal son fundamentales para nuestra salud en general, permitiéndonos superar las dificultades y lograr las cosas que queremos en la vida. Nos debemos a nosotros mismos vivir nuestras vidas al máximo mientras tenemos la oportunidad, pero a veces podemos necesitar un poco de ayuda para hacerlo.
+		        </p>
+
+		        <div class="row">
+		        	
+		        	<div data-aos="fade-up" class="col-lg-4">
+		        		<div class="number_one">1</div>
+		        		<div class="content">
+		        			<h3>Primer Grado</h3>
+		        			<p class="description_grado">
+		        				 Impacto en las necesidades básicas individuales
+		        			</p>
+		        			<a href="#" class="btn btn-primary">ver más</a>
+		        		</div>
+		        	</div>
+
+		        	<div data-aos="fade-up" class="col-lg-4">
+		        		<div class="number_two">2</div>
+		        		<div class="content">
+		        			<h3>Segundo Grado</h3>
+		        			<p class="description_grado">
+		        				  Impacto en las necesidades sociales 
+		        			</p>
+		        			<a href="#" class="btn btn-primary">ver más</a>
+		        		</div>
+		        	</div>
+
+		        	<div data-aos="fade-up" class="col-lg-4">
+		        		<div class="number_three">3</div>
+		        		<div class="content">
+		        			<h3>Tercer Grado</h3>
+		        			<p class="description_grado">
+		        				  Impacto en las necesidades emocionales y espirituales
+		        			</p>
+		        			<a href="#" class="btn btn-primary">ver más</a>
+		        		</div>
+		        	</div>
+
+		        </div>
+
+			  	</div>
+
+		  	</div>
+
+			</div>
+		</section>
+		<!-- Programas end -->
+
+		<!-- Tecnologías Para un Mundo Mejor -->
+		<section class="container tecnologias_mundo_mejor">
+	  	<div class="row">
+
+		  	<div data-aos="fade-up" class="col-md-12">
+		  		<h2>Tecnologías para un mundo mejor.</h2>		        
+		  	</div>
+
+		  	<div data-aos="fade-up" class="col-md-6 programa_cooperacion">
+		  		<h3>Programa de<br>cooperación</h3>
+		  		<a href="#" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
+		  	</div>
+
+		  	<div data-aos="fade-up" class="col-md-6 centro_desarrollo">
+		  		<h3>Centro de<br>investigación y<br>desarrollo</h3>
+		  		<a href="#" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
+		  	</div>
+
+	  	</div>
+		</section>
+		<!-- Tecnologías Para un Mundo Mejor end -->
+
+		<!-- Ayuda y Doná -->
+		<section class="container-fluid ayuda_dona">
+			<div class="container">
+	  		<div class="row">
+		  		<!-- Modulo Donación -->
+					<?php include_once('./includes/donation-module.php'); ?>
+		  	</div>
+			</div>
+		</section>
+		<!-- Ayuda y Doná end -->
+
+		<!-- Contacto -->
+		<section class="container-fluid contacto">
+			<div class="container">
+	  		<div class="row">
+	  			<!-- Formulario -->
+					<?php include_once('./includes/form-module.php'); ?>
+	  		</div>
+			</div>
+		</section>
+		<!-- Contacto end -->
+
+		<!-- Clientes -->
+		<section data-aos="fade-up" class="container-fluid clientes">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-10 offset-md-1 content_logos">
+						<img class="img-fluid" src="./img/home/logo-azul.gif" alt="logo azul">
+						<img class="img-fluid" src="./img/home/hospital-militar.gif" alt="logo hospital militar">
+						<img class="img-fluid" src="./img/home/boca.gif" alt="logo boca">
+						<img class="img-fluid" src="./img/home/river.gif" alt="logo river">
+						<img class="img-fluid" src="./img/home/municipalidad-suipacha.gif" alt="logo municipalidad suipacha">
+						<img class="img-fluid" src="./img/home/fuerzas-armadas.gif" alt="logo fuerzas armadas">
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- Clientes end -->
+
+	</section>
+	<!-- Contenido HOME end -->
+
+	<!-- Footer -->
+	<?php include_once('./includes/footer.php'); ?>
+
+	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="./node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js?render=<?= RECAPTCHA_KEY_SITE ?>"></script>
+	<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./node_modules/aos/dist/aos.js"></script>
+	<script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+	<script type="text/javascript" src="./node_modules/axios/dist/axios.min.js"></script>
+	<script src="js/vue-instance.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+	<script src="js/formsContact.js"></script>
+
+</body>
+
+</html>

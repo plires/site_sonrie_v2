@@ -1,0 +1,652 @@
+@import "fonts.css";
+
+/* COMUNES */
+/* Variables */
+:root {
+  --primary-color: rgba(75, 193, 134, 1);
+  --secondary-color: rgba(7, 50, 66, 1);
+  --back-light-color: rgba(237, 237, 237, 1);
+}
+/* Variables end */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--secondary-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.back_light_color {
+  background: var(--back-light-color);
+}
+
+.alert { 
+  width: 100%; 
+}
+
+.transition{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+}
+
+.btn-primary {
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+  color: white!important;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color)!important;
+  border-color: var(--secondary-color)!important;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+  box-shadow: none!important;
+}
+
+input:focus,
+input:active,
+select:focus,
+select:active,
+textarea:focus-visible,
+textarea:focus-visible  {
+  box-shadow: none!important;
+}
+
+input:focus-visible,
+input:focus-visible {
+  border-color: var(--secondary-color);
+}
+
+.cta {
+	color: var(--primary-color);
+	position: relative;
+	font-size: 1.125rem;
+}
+
+.cta:hover {
+	color: var(--secondary-color);
+}
+
+.cta i {
+	position: absolute;
+	right: -25px;
+	bottom: calc(50% - 10px);
+}
+
+.cta:hover i {
+	right: -32px;
+}
+
+/* COMUNES END */
+
+/* Modal Donaciones */
+#modalDonation .modal-header {
+	background: var(--secondary-color);
+	color: white;
+}
+
+#modalDonation .modal-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#modalDonation .modal-body .logo {
+	max-width: 80px;
+}
+
+#modalDonation .btn-close {
+	filter: invert(95%) sepia(100%) saturate(19%) hue-rotate(31deg) brightness(106%) contrast(104%);
+}
+
+#modalDonation .btn-close:hover {
+	filter: invert(100%) sepia(0%) saturate(2535%) hue-rotate(126deg) brightness(120%) contrast(80%);
+}
+/* Modal Donaciones end */
+
+/* Header */
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: var(--secondary-color);
+	z-index: 2;
+}
+
+header nav {
+	position: fixed;
+	top: -100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--secondary-color);
+	transition: 0.5s;
+	z-index: 2;
+}
+
+header nav.active {
+	top: 0;
+}
+
+header nav ul {
+	margin-bottom: 0;
+}
+
+header nav ul li {
+	text-align: center;
+	padding: 15px 5px;
+}
+
+header nav ul li.active {
+	background: var(--secondary-color);
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+header nav ul li a {
+	color: white;
+	font-size: 1.75rem;
+}
+
+header nav ul li a.active {
+	color: var(--primary-color);
+}
+
+header nav ul li a:hover {
+	color: var(--primary-color);
+}
+
+header nav ul li a.btn {
+	background: white!important;
+	border-color: white!important;
+	color: var(--secondary-color)!important;
+	font-size: 1rem;
+}
+
+header nav ul li a.btn:hover {
+	background: var(--secondary-color)!important;
+	color: white!important;
+	border-color: white!important;
+}
+
+header.background {
+	position: fixed;
+	top: 0;
+	box-shadow: 0px 3px 3px -3px rgba(0,0,0,0.1);
+	background: var(--primary-color);
+}
+
+header .logo {
+	max-width: 250px;
+}
+
+header.background .logo {
+	content:url("../img/header/logo-sonrie-vida-mobile.png");
+	max-width: 180px;
+}
+
+header #hamburger {
+	font-size: 2rem;
+	color: white;
+}
+
+header #hamburger:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+header #toggleIcon {
+	z-index: 3;
+}
+
+header.background #hamburger {
+	font-size: 1.5rem;
+}
+
+header .col-md-12 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* Header end */
+
+/* Payment */
+.payment h1 {
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+
+.payment h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+.payment p {
+	color: white;
+}
+
+.payment hr {
+	background: white;
+}
+
+.payment .link {
+	color: var(--primary-color);
+}
+
+.payment .link:hover {
+	color: white;
+}
+
+.payment .segui_navegando {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	background-color: white !important;
+	border-color: var(--secondary-color) !important;
+	color: var(--secondary-color) !important;
+	font-size: 1rem!important;
+}
+
+.payment .segui_navegando:hover {
+	background-color: var(--secondary-color)!important;
+	border-color: white!important;
+	color: white!important;
+}
+/* Payment end */
+
+/* Ayuda y Doná */
+.ayuda_dona .form_donation h2 {
+	text-align: center;
+	color: var(--primary-color);
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.ayuda_dona .form_donation h3 {
+	text-align: center;
+	color: var(--secondary-color);
+	font-size: 1.25rem;
+	margin-bottom: 20px;
+}
+
+.ayuda_dona .form_donation .importes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.ayuda_dona .form_donation #txt_otro_importe {
+	display: none;
+}
+
+.ayuda_dona .form_donation #txt_otro_importe.active {
+	display: inline-block;
+}
+
+.ayuda_dona .form_donation .otro_importe {
+  display: flex;
+	margin-bottom: 30px;
+}
+
+.ayuda_dona .form_donation .importes button, .ayuda_dona .form_donation .otro_importe button {
+	min-width: 80px;
+	color: black!important;
+	background-color: transparent!important;
+	border-color: black!important;
+}
+
+.ayuda_dona .form_donation .importes button:hover, .ayuda_dona .form_donation .otro_importe button:hover {
+	color: var(--primary-color)!important;
+	border-color: var(--primary-color)!important;
+}
+
+.ayuda_dona .form_donation .otro_importe button {
+	margin-right: 15px;
+}
+
+.ayuda_dona .form_donation .importes button.active, 
+.ayuda_dona .form_donation .otro_importe button.active {
+	background: var(--primary-color)!important;
+	color: white !important;
+	border-color: var(--primary-color)!important;
+}
+
+.ayuda_dona .form_donation .content_button_siguiente {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.ayuda_dona .form_donation .content_button_siguiente p {
+	margin-bottom: 0 !important;
+	font-size: 0.85rem;
+	color: green;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	padding-right: 5px;
+}
+
+.ayuda_dona .form_donation .content_button_siguiente .error_donation {
+	color: red;
+}
+/* Ayuda y Doná end */
+
+/* Contacto */
+.contacto h2 {
+	text-align: center;
+	color: var(--primary-color);
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.contacto .flecha {
+	text-align: center;
+}
+
+.contacto .flecha {
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contacto .form-label {
+	font-size: 0.85rem;
+}
+
+.contacto .invalid-feedback {
+	font-size: 0.65rem;
+}
+
+.contacto #wait {
+	display: none;
+}
+/* Contacto end */
+
+/* Footer */
+footer {
+	background: var(--secondary-color);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer .logo_footer {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+footer .logo_footer img {
+	max-width: 220px;
+}
+
+footer .rrss {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+footer .rrss a {
+	display: inline-block;
+	margin-right: 25px;
+	color: white;
+	font-size: 1.25rem;
+}
+
+footer a:hover {
+	color: var(--primary-color)!important;
+}
+
+footer .rrss a:last-child {
+	margin-right: 0;
+}
+
+footer .data {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+footer .data a {
+	display: inline-block;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 0.85rem;
+}
+
+footer .data i {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+footer .data a:last-child {
+	margin-bottom: 0;
+}
+/* Footer end */
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Ayuda y Doná */
+	.content_form {
+		background: rgba(255,255,255,0.9);
+		border-radius: 5px;
+		padding: 20px;
+		box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+	}
+	/* Ayuda y Doná end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Ayuda y Doná */
+	.ayuda_dona .form_donation h2 {
+		font-size: 1.75rem;
+		margin-bottom: 20px;
+		text-align: left;
+	}
+
+	.ayuda_dona .form_donation h3 {
+		font-size: 1.125rem;
+		text-align: left;
+	}
+
+	.ayuda_dona .content_data {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.ayuda_dona .form_donation .importes button, .ayuda_dona .form_donation .otro_importe button {
+		font-size: 0.85rem!important;
+	}
+	/* Ayuda y Doná end */
+
+	/* Contacto */
+	.contacto h2 {
+		font-size: 1.5rem;
+	}
+	/* Contacto end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Ayuda y Doná */
+	.content_form {
+		padding: 60px;
+	}
+
+	.content_data_form {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.content_data_form h2 {
+		text-align: left;
+	}
+
+	.content_data_form .data {
+		position: relative;
+	}
+
+	.content_data_form .data .flecha {
+		position: absolute;
+		margin: 0;
+		right: -70px;
+		top: calc(50% - 25px);
+	}
+
+	.content_data_form .data .flecha img {
+		-webkit-transform: scaleY(-1);
+  	transform: scaleY(-1);
+	}
+	/* Ayuda y Doná end */
+
+	/* Contacto */
+	.contacto h2 {
+		font-size: 1.75rem;
+	}
+	/* Contacto end */
+
+	/* Footer */
+	footer {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	footer .logo_footer,
+	footer .rrss {
+		margin-bottom: 0;
+	}
+	/* Footer end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Header */
+	header #toggleIcon {
+		display: none;
+	}
+
+	header .branding {
+		margin-left: 5%;
+	}
+
+	header nav {
+		position: relative;
+		width: auto;
+		height: auto;
+		top: 0;
+		background: transparent;
+		margin-right: 5%;
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header nav ul li {
+		padding: 0 20px;
+	}
+
+	header nav ul li:last-child {
+		padding: 0;
+	}
+
+	header nav ul li:nth-child(4) {
+		margin-right: 80px;
+	}
+
+	header nav ul li a {
+		font-size: 1rem;
+	}
+	/* Header end */
+
+	/* Ayuda y Doná */
+	.content_data_form .data .flecha {
+		right: -77px;
+	}
+	/* Ayuda y Doná end */
+	
+	/* Contacto */
+	.contacto {
+		padding-top: 100px!important;
+		padding-bottom: 100px!important;
+	}
+	/* Contacto end */
+
+}
+
+@media (min-width: 1300px) {
+
+	/* Comunes */
+	.btn-primary {
+		font-size: 1.25rem;
+	}
+	/* Comunes end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Ayuda y Doná end */
+	.content_form {
+		padding: 100px 80px;
+	}
+
+	.ayuda_dona .form_donation h2 {
+		font-size: 2rem;
+	}
+	/* Ayuda y Doná */
+
+	/* Contacto */
+	.contacto {
+	  padding-top: 130px !important;
+	  padding-bottom: 130px !important;
+	}
+	/* Contacto end */
+
+}
+
+@media (min-width: 1600px) {
+
+}
