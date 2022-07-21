@@ -154,20 +154,13 @@ header nav ul li {
 	padding: 15px 5px;
 }
 
-header nav ul li.active {
-	background: var(--secondary-color);
-  border-radius: 3px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+header nav ul li.active a {
+	color: var(--primary-color);
 }
 
 header nav ul li a {
 	color: white;
 	font-size: 1.75rem;
-}
-
-header nav ul li a.active {
-	color: var(--primary-color);
 }
 
 header nav ul li a:hover {
