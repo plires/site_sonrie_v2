@@ -196,6 +196,10 @@ header.background .logo {
 	max-width: 180px;
 }
 
+header.background nav ul li.active a {
+	color: var(--secondary-color);
+}
+
 header #hamburger {
 	font-size: 2rem;
 	color: white;
