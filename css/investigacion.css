@@ -1,0 +1,888 @@
+/* INVESTIGACION */
+.investigacion {
+	position: relative;
+}
+
+/* Pos Header */
+.investigacion .pos_header {
+	background: url('../img/investigacion/slide-investigacion-mobile.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	min-height: 630px;
+	height: 630px;
+	margin-bottom: 30px;
+}
+
+.investigacion .rinascere {
+	text-stroke-width: 1px;
+	text-stroke-color: var(--primary-color);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: var(--primary-color);
+	text-align: center;
+	font-size: 4rem;
+	color: transparent;
+	font-weight: 700;
+	padding-top: 60px;
+}
+/* Pos Header end */
+
+/* Centro de Investigación */
+.investigacion .centro_investigacion {
+	margin-bottom: 30px;
+}
+
+.investigacion .centro_investigacion .img_centro {
+	max-width: 60px;
+	margin-bottom: 5px;
+}
+
+.investigacion .centro_investigacion .centro_de {
+	color: var(--secondary-color);
+	font-size: 0.95rem;
+	font-weight: 300;
+}
+
+.investigacion .centro_investigacion h1 {
+	color: var(--secondary-color);
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.investigacion .centro_investigacion h3 {
+	color: var(--primary-color);
+	font-size: 1.125rem;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+.investigacion .centro_investigacion .col-md-6:last-child p {
+	margin-bottom: 0;
+}
+/* Centro de Investigación end */
+
+/* Un Logro */
+.investigacion .un_logro {
+	background: url('../img/investigacion/nodos.png');
+	background-color: var(--primary-color);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 300%;
+}
+
+.investigacion .un_logro .ojo {
+	display: none;
+}
+
+.investigacion .un_logro .data .outline {
+	text-stroke-width: 1px;
+	text-stroke-color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	text-align: center;
+	font-size: 3rem;
+	color: transparent;
+	font-weight: 700;
+}
+
+.investigacion .un_logro .data .logro_importante {
+	color: white;
+	font-size: 0.75rem;
+	font-weight: 300;
+}
+
+.investigacion .un_logro .data .creacion {
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;
+}
+/* Un Logro end */
+
+/* Caracteristicas Rinascere */
+.investigacion .caracteristicas {
+	background: var(--back-light-color);
+	padding-top: 30px!important;
+	padding-bottom: 30px!important;
+}
+
+.investigacion .caracteristicas .palabra {
+	display: none;
+}
+
+.investigacion .caracteristicas .colibri_black {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.investigacion .caracteristicas .content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	position: relative;
+}
+
+.investigacion .caracteristicas .content .title {
+	text-align: right;
+	color: var(--primary-color);
+	width: 20%;
+	font-weight: 300;
+	font-size: 0.8rem;
+	padding-right: 15px;
+	position: relative;
+	left: 0;
+	top: -15px;
+}
+
+.investigacion .caracteristicas .content .description {
+	width: 80%;
+	padding-left: 15px;
+	border-left: solid 1px var(--primary-color);
+	border-top: solid 1px var(--primary-color);
+	padding-top: 30px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.investigacion .caracteristicas .content .description:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: -4px;
+	border-radius: 50%;
+	background: var(--primary-color);
+	width: 8px;
+	height: 8px;
+}
+
+.investigacion .caracteristicas .content_first .description:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: transparent;
+	width: 0;
+	height: 0;
+}
+
+.investigacion .caracteristicas .content_last .description:before {
+	content: '';
+	position: absolute;
+	left: -8px;
+	bottom: 0;
+	background: var(--primary-color);
+	width: 16px;
+	height: 5px;
+}
+
+.investigacion .caracteristicas .content_first .description {
+	border-top: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.investigacion .caracteristicas .central {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.investigacion .caracteristicas .img_cerebro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	border-radius: 50%;
+	border: 1px solid var(--primary-color);
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left: 5%;
+}
+
+.investigacion .caracteristicas .frase img {
+	max-width: 140px;
+	margin-left: 30px;
+}
+
+.investigacion .caracteristicas .content .title_number {
+	font-size: 1.5rem;
+	top: -17px;
+	font-weight: 700;
+}
+/* Caracteristicas Rinascere end */
+
+/* Método */
+.investigacion .metodo {
+	background: var(--secondary-color);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.investigacion .metodo h2 {
+	color: white;
+	font-size: 1.75rem;
+	margin-bottom: 30px;
+}
+
+.investigacion .metodo .frase {
+	color: var(--primary-color);
+	margin-bottom: 15px;
+	border-top: 1px white solid;
+	border-bottom: 1px white solid;
+	margin-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.investigacion .metodo h3 {
+	color: white;
+	font-size: 1.25rem;
+	padding: 15px;
+	border: 1px solid var(--primary-color);
+	margin: auto;
+	margin-bottom: 15px;
+	width: 90%;
+}
+
+.investigacion .metodo .img_metodo {
+	margin-bottom: 50px;
+}
+/* Método end */
+
+/* Noticias */
+.investigacion .noticias {
+	background: var(--back-light-color);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.investigacion .noticias h2 {
+	color: var(--secondary-color);
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.investigacion .noticias .subtitulo {
+	font-size: 0.85rem;
+	text-align: center;
+}
+
+.investigacion .noticias .content {
+	background: white;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.investigacion .noticias .content img {
+	margin-bottom: 10px;
+}
+
+.investigacion .noticias .content img:hover {
+	opacity: 0.7;
+}
+
+.investigacion .noticias .content h3 {
+	font-weight: 700;
+	color: var(--secondary-color);
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.investigacion .noticias .content p {
+	color: var(--secondary-color);
+	font-size: 0.85rem;
+	margin-bottom: 30px;
+}
+
+.investigacion .noticias .content .btn-primary {
+	color: var(--secondary-color)!important;
+	border: 1px solid var(--secondary-color)!important; ;
+	background: transparent!important;
+	font-size: 0.85rem;
+}
+
+.investigacion .noticias .content .btn-primary:hover {
+	color: white!important;
+	background: var(--secondary-color)!important;
+}
+/* Noticias end */
+
+
+
+/* INVESTIGACION end */
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Pos Header */
+	.investigacion .pos_header {
+		background-size: cover;
+		margin-bottom: 60px;
+	}
+
+	.investigacion .rinascere {
+		font-size: 6.5rem;
+		padding-top: 10px;
+	}
+	/* Pos Header end */
+
+	/* Centro de Investigación */
+	.investigacion .centro_investigacion {
+		margin-bottom: 80px;
+	}
+
+	.investigacion .centro_investigacion .img_centro {
+		margin-bottom: 10px;
+	}
+
+	.investigacion .centro_investigacion h1 {
+		font-size: 2.2rem;
+	}
+	/* Centro de Investigación end */
+
+	/* Un Logro */
+	.investigacion .un_logro {
+		padding-bottom: 30px!important;
+	}
+
+	.investigacion .un_logro .row {
+		position: relative;
+	}
+
+	.investigacion .un_logro .ojo {
+		display: inline-block;
+		border-radius: 5px;
+		margin-top: -45px;
+		margin-bottom: 20px;
+	}
+
+	.investigacion .un_logro .ojo img {
+		box-shadow: 1px 3px 3px 2px rgba(0,0,0,0.1);
+		border-radius: 10px;
+	}
+
+	.investigacion .un_logro .data .outline {
+		font-size: 4.5rem;
+	}
+
+	.investigacion .un_logro .data .creacion {
+		text-align: center;
+		font-size: 1.125rem;
+	}
+	/* Un Logro end */
+
+	/* Caracteristicas Rinascere */
+	.investigacion .caracteristicas {
+		padding-top: 60px!important;
+		padding-bottom: 60px!important;
+	}
+	.investigacion .caracteristicas .content .title {
+		font-size: 1rem;
+		padding-right: 20px;
+		top: -20px;
+	}
+
+	.investigacion .caracteristicas .content_first .description {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.investigacion .caracteristicas .img_cerebro {
+		width: auto;
+		height: auto;
+		left: -10px;
+	}
+
+	.investigacion .caracteristicas .frase img {
+		max-width: 100%;
+	}
+
+	.investigacion .caracteristicas .content .title_number {
+		font-size: 2rem;
+		top: -22px;
+	}
+	/* Caracteristicas Rinascere end */
+
+	/* Método */
+	.investigacion .metodo {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.investigacion .metodo h3 {
+		width: 60%;
+	}
+
+	.investigacion .metodo .frase {
+		margin-bottom: 50px;
+	}
+
+	.investigacion .metodo .img_metodo {
+		margin-bottom: 70px;
+	}
+	/* Método end */
+
+	/* Noticias */
+	.investigacion .noticias {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.investigacion .noticias .content {
+		padding: 20px;
+	}
+
+	.investigacion .noticias .content h3 {
+		font-size: 1.25rem;
+	}
+
+	.investigacion .noticias .content p {
+		margin-bottom: 50px;
+	}
+
+	.investigacion .noticias .subtitulo {
+		font-size: 1rem;
+		margin-bottom: 20px;
+	}
+
+	.investigacion .noticias .content h3 {
+		font-size: 1.1rem;
+	}
+	/* Noticias end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Pos Header */
+	.investigacion .pos_header {
+		background: url('../img/investigacion/slide-investigacion.jpg');
+		background-position: 50% 50%;
+	}
+
+	.investigacion .rinascere {
+		font-size: 9rem;
+	}
+	/* Pos Header end */
+
+	/* Centro de Investigación */
+	.investigacion .centro_investigacion {
+		margin-bottom: 95px;
+	}
+
+	.investigacion .centro_investigacion .img_centro {
+		max-width: 100%;
+	}
+
+	.investigacion .centro_investigacion .centro_de {
+		font-size: 1.25rem;
+	}
+
+	.investigacion .centro_investigacion h1 {
+		font-size: 2.5rem;
+	}
+	/* Centro de Investigación end */
+
+	/* Un Logro */
+	.investigacion .un_logro {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.investigacion .un_logro .ojo {
+		margin-top: -57px;
+	}
+
+	.investigacion .un_logro .data .outline {
+		font-size: 6.2rem;
+	}
+
+	.investigacion .un_logro .data .logro_importante {
+		font-size: 0.9rem;
+	}
+
+	.investigacion .un_logro .data .creacion {
+		font-size: 1.25rem;
+	}
+	/* Un Logro end */
+
+	/* Caracteristicas */
+	.investigacion .caracteristicas .palabra {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.investigacion .caracteristicas .colibri_black {
+		text-align: left;
+		padding-left: 80px;
+	}
+
+	.investigacion .caracteristicas .content .title {
+		width: 30%;
+	}
+
+	.investigacion .caracteristicas .content .description {
+		width: 70%;
+	}
+
+	.investigacion .caracteristicas .img_cerebro {
+		left: 25px;
+	}
+
+	.investigacion .caracteristicas .frase img {
+		margin-left: 0;
+		padding-left: 60px;
+	}
+	/* Caracteristicas end */
+
+	/* Método */
+	.investigacion .metodo h2 {
+		font-size: 2rem;
+	}
+
+	.investigacion .metodo h3 {
+		width: 45%;
+		margin-bottom: 25px;
+	}
+
+	.investigacion .metodo .img_metodo {
+		margin-bottom: 85px;
+	}
+	/* Método end */
+
+	/* Noticias */
+	.investigacion .noticias .content {
+		padding: 10px;
+		min-height: 375px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.investigacion .noticias .content p {
+		margin-bottom: 0;
+	}
+	/* Noticias end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Pos Header */
+	.investigacion .pos_header {
+		min-height: 700px;
+		height: 700px;
+	}
+
+	.investigacion .rinascere {
+		font-size: 11.8rem;
+	}
+	/* Pos Header end */
+
+	/* Centro de Investigación */
+	.investigacion .centro_investigacion {
+		margin-bottom: 115px;
+	}
+
+	.investigacion .centro_investigacion h1 {
+		font-size: 3.2rem;
+	}
+
+	.investigacion .centro_investigacion h3 {
+		margin-bottom: 20px;
+	}
+	/* Centro de Investigación end */
+
+	/* Un Logro */
+	.investigacion .un_logro {
+		padding-bottom: 80px!important;
+	}
+
+	.investigacion .un_logro .ojo {
+		margin-top: -75px;
+	}
+
+	.investigacion .un_logro .data .outline {
+		font-size: 8rem;
+		line-height: 1.1;
+	}
+
+	.investigacion .un_logro .data .logro_importante {
+		font-size: 1rem;
+	}
+
+	.investigacion .un_logro .data .creacion {
+		font-size: 1.5rem;
+	}
+	/* Un Logro end */
+
+	/* Caracteristicas Rinascere */
+	.investigacion .caracteristicas {
+		padding-top: 80px!important;
+		padding-bottom: 80px!important;
+	}
+
+	.investigacion .caracteristicas .colibri_black {
+		padding-left: 120px;
+	}
+
+	.investigacion .caracteristicas .content .title {
+		font-size: 1.25rem;
+		top: -26px;
+	}
+
+	.investigacion .caracteristicas .img_cerebro {
+		left: 45px;
+	}
+
+	.investigacion .caracteristicas .frase img {
+		padding-left: 55px;
+	}
+
+	.investigacion .caracteristicas .content .title_number {
+		font-size: 2.5rem;
+	}
+	/* Caracteristicas Rinascere end */
+
+	/* Método */
+	.investigacion .metodo {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.investigacion .metodo h2 {
+		font-size: 2.25rem;
+	}
+
+	.investigacion .metodo .frase {
+		font-size: 1.25rem;
+		margin-bottom: 65px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.investigacion .metodo h3 {
+		width: 65%;
+		margin-bottom: 45px;
+	}
+
+	.investigacion .metodo .img_metodo {
+		margin-bottom: 0;
+	}
+
+	.investigacion .img_areas {
+		max-width: 80%;
+	}
+	/* Método end */
+
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Pos Header */
+	.investigacion .rinascere {
+		font-size: 14rem;
+	}
+	/* Pos Header end */
+
+	/* Centro de Investigación */
+	.investigacion .centro_investigacion h1 {
+		font-size: 4rem;
+	}
+	/* Centro de Investigación end */
+
+	/* Un Logro */
+	.investigacion .un_logro {
+	}
+	.investigacion .un_logro .data .outline {
+		font-size: 10rem;
+	}
+
+	.investigacion .un_logro .data .logro_importante {
+		font-size: 1.125rem;
+		padding-left: 20px;
+	}
+
+	.investigacion .un_logro .data .creacion {
+		font-size: 1.75rem;
+	}
+	/* Un Logro end */
+
+	/* Caracteristicas Rinascere */
+	.investigacion .caracteristicas .colibri_black {
+		padding-left: 150px;
+	}
+	/* Caracteristicas Rinascere end */
+
+	/* Caracteristicas Rinascere */
+	.investigacion .caracteristicas .img_cerebro {
+		left: 55px;
+	}
+
+	.investigacion .caracteristicas .frase img {
+		padding-left: 75px;
+	}
+
+	.investigacion .caracteristicas .content .description p {
+		font-size: 1.1rem;
+	}
+	/* Caracteristicas Rinascere end */
+
+	/* Método */
+	.investigacion .img_areas {
+		max-width: 70%;
+	}
+	/* Método end */
+
+
+	/* Noticias */
+	.investigacion .noticias .subtitulo {
+		font-size: 1.25rem;
+		margin-bottom: 30px;
+	}
+
+	.investigacion .noticias .content {
+		padding: 20px;
+		height: 430px;
+		margin-bottom: 30px;
+	/* Noticias end */
+
+}
+
+@media (min-width: 1300px) {
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Pos Header */
+	.investigacion .pos_header {
+		margin-bottom: 100px;
+	}
+
+	.investigacion .rinascere {
+		font-size: 17rem;
+	}
+	/* Pos Header end */
+
+	/* Centro de Investigación */
+	.investigacion .centro_investigacion {
+		margin-bottom: 160px;
+	}
+
+	.investigacion .centro_investigacion h1 {
+		font-size: 4.5rem;
+	}
+
+	.investigacion .centro_investigacion h3 {
+		font-size: 1.5rem;
+		margin-bottom: 30px;
+	}
+
+	.investigacion .centro_investigacion p {
+		font-size: 1.1rem;
+	}
+	/* Centro de Investigación end */
+
+	/* Un Logro */
+	.investigacion .un_logro .ojo {
+		margin-top: -110px;
+		margin-bottom: 45px;
+	}
+
+	.investigacion .un_logro .data .outline {
+		font-size: 11.5rem;
+	}
+
+	.investigacion .un_logro .data .logro_importante {
+		font-size: 1.5rem;
+	}
+
+	.investigacion .un_logro .data .creacion {
+		font-size: 2rem;
+	}
+
+	.investigacion .un_logro {
+		padding-bottom: 120px!important;
+	}
+	/* Un Logro end */
+
+	/* Caracteristicas Rinascere */
+	.investigacion .caracteristicas {
+		padding-top: 120px!important;
+		padding-bottom: 120px!important;
+	}
+
+	.investigacion .caracteristicas .img_cerebro {
+		left: 85px;
+	}
+
+	.investigacion .caracteristicas .frase img {
+		padding-left: 130px;
+	}
+	/* Caracteristicas Rinascere end */
+
+	/* Método */
+	.investigacion .metodo {
+		padding-top: 120px!important;
+		padding-bottom: 120px!important;
+	}
+
+	.investigacion .img_areas {
+		max-width: 100%;
+	}
+	/* Método end */
+
+	/* Noticias */
+	.investigacion .noticias h2 {
+		font-size: 2.5rem;
+	}
+
+	.investigacion .noticias .content {
+		margin-bottom: 50px;
+		height: 460px;
+	}
+
+	.investigacion .noticias .content h3 {
+		font-size: 1.25rem;
+	}
+
+	.investigacion .noticias .content p {
+		font-size: 1rem;
+	}
+
+	.investigacion .noticias .content .btn-primary {
+		font-size: 1rem!important;
+	}
+	/* Noticias end */
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Pos Header */
+	.investigacion .rinascere {
+		font-size: 20rem;
+		line-height: 1.1;
+	}
+	/* Pos Header end */
+
+	/* Caracteristicas Rinascere */
+	.investigacion .caracteristicas .colibri_black {
+		padding-left: 180px;
+	}
+	/* Caracteristicas Rinascere end */
+
+}
