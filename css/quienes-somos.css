@@ -1,0 +1,523 @@
+/* QUIENES SOMOS */
+
+/* Pos Header */
+.quienes .pos_header .img {
+	padding: 0;
+}
+
+.quienes .pos_header .data {
+	background: var(--back-light-color);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quienes .pos_header h2 {
+	margin: 0;
+	font-size: 1.5rem;
+	text-align: center;
+}
+/* Pos Header end */
+
+/* Historia */
+.quienes .historia {
+	margin-bottom: 30px;
+	background: var(--secondary-color);
+	padding: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.quienes .historia h1 {
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.quienes .historia h3 {
+	color: white;
+	text-align: left;
+	margin-bottom: 5px;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.quienes .historia p {
+	color: white;
+}
+
+.quienes .historia .content:first-child {
+	margin-bottom: 30px;
+}
+/* Historia end */
+
+/* Experiencia */
+.quienes .experiencia {
+	margin-bottom: 20px;
+}
+
+.quienes .experiencia .img img {
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+
+.quienes .experiencia .data div {
+	border-bottom: solid 1px var(--primary-color);
+	padding-bottom: 25px;
+}
+
+.quienes .experiencia .data p {
+	color: var(--primary-color);
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+
+.quienes .experiencia .data .autor {
+	font-weight: 300;
+	margin-bottom: 0;
+}
+/* Experiencia end */
+
+/* Misión */
+.quienes .mision {
+	padding-bottom: 30px;
+}
+
+.quienes .mision .titles .content {
+	border-bottom: solid 1px var(--primary-color);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.quienes .mision .titles .content h2 {
+	color: var(--primary-color);
+	font-size: 1.5rem;
+}
+
+.quienes .mision .imgs .img_objetivos {
+	display: none;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+
+.quienes .mision .imgs .img_first {
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+
+.quienes .mision .imgs h3 {
+	color: var(--primary-color);
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.quienes .mision .data .content {
+	display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.quienes .mision .titles .content:last-child {
+	border-bottom: none;
+}
+
+.quienes .mision .data .content i {
+	color: var(--primary-color);
+	display: inline-block;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.quienes .mision .data .content p {
+	margin-bottom: 0;
+}
+/* Misión end */
+
+/* Nuestra Historia */
+.quienes .nuestra_historia {
+	background: var(--back-light-color);
+	padding: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.quienes .nuestra_historia h2 {
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.quienes .nuestra_historia .row {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.quienes .nuestra_historia .row .year {
+	color: #a4b5bc;
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.quienes .nuestra_historia .row .year span {
+	color: black;
+}
+
+.quienes .nuestra_historia .row .data img {
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+}
+
+.quienes .nuestra_historia .row .data h3 {
+	color: var(--primary-color);
+	font-size: 1.125rem;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.quienes .nuestra_historia .row .data p {
+	margin-bottom: 0;
+	font-weight: 300;
+	font-size: 0.95rem;
+}
+
+.quienes .nuestra_historia .content_img_colibri {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.quienes .nuestra_historia .content_img_colibri img {
+	max-width: 110px;
+}
+
+.quienes .nuestra_historia .line {
+	margin-top: 20px;
+}
+
+.quienes .nuestra_historia .line p {
+	position: relative;
+	padding-left: 15px;
+	border-left: solid 1px var(--primary-color);
+	padding-bottom: 20px;
+	font-weight: 300;
+}
+
+.quienes .nuestra_historia .line p strong {
+	font-weight: 700;
+}
+
+.quienes .nuestra_historia .line p:last-child {
+	border-left: solid 1px transparent;
+}
+
+.quienes .nuestra_historia .line p:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: -5px;
+	width: 10px;
+	height: 10px;
+	background: var(--primary-color);
+	border-radius: 50%;
+}
+
+.quienes .nuestra_historia .line p:first-child:after,
+.quienes .nuestra_historia .line p:last-child:after {
+	top: 0;
+}
+/* Nuestra Historia end */
+
+
+
+/* QUIENES SOMOS end */
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+	/* Pos Header */
+	.quienes .pos_header .data {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.quienes .pos_header h2 {
+		font-size: 2rem;
+	}
+	/* Pos Header end */
+
+	/* Historia */
+	.quienes .historia {
+		margin-bottom: 60px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.quienes .historia h1 {
+		text-align: left;
+		font-size: 2.5rem;
+	}
+
+	.quienes .historia .content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.quienes .historia .content p:last-child {
+		margin-bottom: 0;
+	}
+	/* Historia end */
+
+	/* Experiencia */
+	.quienes .experiencia .data p {
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+	}
+	/* Experiencia end */
+
+	/* Nuestra Historia */
+	.quienes .nuestra_historia h2 {
+		font-size: 2rem;
+	}
+
+	.quienes .nuestra_historia .row .col-md-5,
+	.quienes .nuestra_historia .row .col-md-7 {
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-start;
+	}
+
+	.quienes .nuestra_historia .row {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.quienes .nuestra_historia .row .year {
+		padding-right: 70px;
+		font-size: 4.5rem;
+		line-height: 0.8;
+		position: sticky;
+		top: 70px;
+		z-index: 0;
+	}
+
+	.quienes .nuestra_historia .row .data p {
+		font-size: 1rem;
+		padding-bottom: 50px;
+	}
+	/* Nuestra Historia end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Experiencia */
+	.quienes .experiencia {
+		margin-bottom: 60px;
+	}
+
+	.quienes .experiencia .img img {
+		margin-bottom: 0;
+	}
+
+	.quienes .experiencia .data {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.quienes .experiencia .data p {
+		margin-bottom: 30px;
+	}
+
+	.quienes .experiencia .data div {
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+	/* Experiencia end */
+
+	/* Misión */
+	.quienes .mision {
+		margin-bottom: 30px;	
+	}
+
+	.quienes .mision .titles {
+		margin-bottom: 30px;
+	}
+
+	.quienes .mision .row {
+		display: flex;
+		align-items: center;
+	}
+
+	.quienes .mision .imgs .img_first {
+		margin-bottom: 0;
+		margin-bottom: 30px;
+	}
+
+	.quienes .mision .imgs .img_objetivos {
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+
+	.quienes .mision .imgs .img_objetivos:nth-child(1) {
+		object-fit: cover;
+		max-height: 137px;
+		width: 100%;
+	}
+
+	.quienes .mision .imgs .col-md-12 .img_objetivos {
+		margin-bottom: 0;
+	}
+
+	.quienes .mision .data .content {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.quienes .mision .data .content p {
+		font-size: 0.9rem;
+	}
+	/* Misión end */
+
+	/* Nuestra Historia */
+	.quienes .nuestra_historia {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.quienes .nuestra_historia h2 {
+		margin-bottom: 60px;
+	}
+
+	.quienes .nuestra_historia .row .col-md-7 {
+		justify-content: flex-start;
+	}
+
+	.quienes .nuestra_historia .row .data p {
+		padding-bottom: 80px;
+	}
+	/* Nuestra Historia end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Pos Header */
+	.quienes .pos_header h2 {
+		font-size: 2.75rem;
+		text-align: left;
+	}
+	/* Pos Header end */
+
+	/* Misión */
+	.quienes .mision .data .content p {
+		font-size: 1rem;
+	}
+
+	.quienes .mision .data .content {
+	  padding-top: 10px;
+  	padding-bottom: 15px;
+	}
+	/* Misión end */
+
+	/* Nuestra Historia */
+	.quienes .nuestra_historia h2 {
+		font-size: 2.5rem;
+		margin-bottom: 100px;
+	}
+
+	.quienes .nuestra_historia .row .year {
+		font-size: 6rem;
+	}
+
+	.quienes .nuestra_historia .row .data h3 {
+		font-size: 1.5rem;
+	}
+
+	.quienes .nuestra_historia .row .data h3 {
+		font-size: 1.5rem;
+	}
+
+	.quienes .nuestra_historia .row .data p {
+		font-size: 1.125rem;
+		padding-bottom: 100px;
+	}
+
+	.quienes .nuestra_historia .content_img_colibri img {
+		max-width: 160px;
+	}
+	/* Nuestra Historia end */
+
+
+}
+
+@media (min-width: 1300px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Pos Header */
+	.quienes .pos_header h2 {
+		font-size: 3.5rem;
+	}
+	/* Pos Header end */
+
+	/* Historia */
+	.quienes .historia {
+		margin-bottom: 100px;
+	}
+
+	.quienes .historia h1 {
+		font-weight: 700;
+		margin-bottom: 40px;
+	}
+	/* Historia end */
+
+	/* Experiencia */
+	.quienes .experiencia .data p {
+		font-size: 1.25rem;
+	}
+	/* Experiencia end */
+
+	/* Misión */
+	.quienes .mision .titles .content h2 {
+		font-size: 1.75rem;
+	}
+
+	.quienes .mision .imgs h3 {
+		font-size: 1.75rem;
+	}
+
+	.quienes .mision .data .content {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	/* Misión end */
+
+	/* Nuestra Historia */
+	.quienes .nuestra_historia .content_img_colibri img {
+		max-width: 100%;
+	}
+	/* Nuestra Historia end */
+
+}
