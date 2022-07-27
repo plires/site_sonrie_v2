@@ -117,7 +117,7 @@
 								<div class="content content_first">
 									<div class="title title_number">
 									</div>
-									<div class="description">
+									<div class="description description_first">
 									</div>
 								</div>
 
@@ -166,7 +166,7 @@
 								<div class="content content_first">
 									<div class="title">
 									</div>
-									<div class="description">
+									<div class="description description_first">
 									</div>
 								</div>
 

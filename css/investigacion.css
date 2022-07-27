@@ -536,6 +536,10 @@
 		width: 70%;
 	}
 
+	.investigacion .caracteristicas .content .description_first {
+		width: 69.9%;
+	}
+
 	.investigacion .caracteristicas .img_cerebro {
 		left: 25px;
 	}
@@ -724,9 +728,11 @@
 	.investigacion .caracteristicas .colibri_black {
 		padding-left: 150px;
 	}
-	/* Caracteristicas Rinascere end */
 
-	/* Caracteristicas Rinascere */
+	.investigacion .caracteristicas .content .description_first {
+		width: 70%;
+	}
+	
 	.investigacion .caracteristicas .img_cerebro {
 		left: 55px;
 	}
@@ -882,6 +888,10 @@
 	/* Caracteristicas Rinascere */
 	.investigacion .caracteristicas .colibri_black {
 		padding-left: 180px;
+	}
+
+	.investigacion .caracteristicas .content .description_first {
+		width: 69.9%;
 	}
 	/* Caracteristicas Rinascere end */
 
