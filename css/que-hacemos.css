@@ -1,0 +1,443 @@
+/* Pos Header */
+.hacemos .pos_header {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.hacemos .pos_header h1 {
+	text-align: center;
+	color: var(--primary-color);
+	margin-bottom: 30px;
+}
+
+.hacemos .pos_header h1 span {
+	font-weight: 700;
+}
+/* Pos Header end */
+
+/* Como Cooperamos */
+.hacemos .cooperamos {
+	padding: 60px 0 60px 0;
+	background: var(--secondary-color);
+	margin-bottom: 60px;
+}
+
+.hacemos .cooperamos h2 {
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.hacemos .cooperamos p {
+	color: white;
+}
+/* Como Cooperamos end */
+
+/* Grados */
+.hacemos .grados {
+	margin-bottom: 60px;
+}
+
+.hacemos .grados .content_img {
+	text-align: center;
+}
+
+.hacemos .grados .img {
+	margin-bottom: 30px;
+	max-width: 330px;
+}
+
+.hacemos .grados .description {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.hacemos .grados .content {
+	background: white;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+	text-align: center;
+	color: var(--secondary-color);
+}
+
+.hacemos .grados .content:last-child {
+	margin-bottom: 0;
+}
+
+.hacemos .grados .content img {
+	margin-bottom: 15px;
+}
+
+.hacemos .grados .content h3 {
+	color: var(--primary-color);
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.hacemos .grados .content p {
+	margin-bottom: 0;
+}
+/* Grados end */
+
+/* Programa de Cooperación */
+.hacemos .programa_cooperacion {
+	margin-bottom: 60px;
+}
+
+.hacemos .programa_cooperacion h2 {
+	color: var(--secondary-color);
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.hacemos .programa_cooperacion .content_title img {
+	display: none;
+}
+
+.hacemos .programa_cooperacion .copete {
+	font-size: 0.9rem;
+}
+
+.hacemos .programa_cooperacion .copete span {
+	font-weight: 700;
+	font-style: italic;
+}
+
+.hacemos .programa_cooperacion .item {
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.hacemos .programa_cooperacion .caracteristicas {
+	margin-bottom: 30px;
+}
+
+.hacemos .programa_cooperacion .item i {
+	display: inline-block;
+	padding-right: 10px;
+	color: var(--primary-color);
+}
+
+.hacemos .programa_cooperacion .item p {
+	margin-bottom: 0;
+}
+
+.hacemos .programa_cooperacion .img_media {
+	margin-bottom: 30px;
+}
+
+.hacemos .programa_cooperacion .img_media img {
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+
+.hacemos .programa_cooperacion .description {
+	text-align: center;
+}
+
+.hacemos .programa_cooperacion .img_final {
+	margin-top: 60px;
+	text-align: center;
+}
+/* Programa de Cooperación end */
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Pos Header */
+	.hacemos .pos_header {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.hacemos .pos_header h1 {
+		font-size: 2.5rem;
+		margin-bottom: 50px;
+	}
+	/* Pos Header end */
+
+	/* Como Cooperamos */
+	.hacemos .cooperamos h2 {
+		text-align: left;
+		font-size: 1.75rem;
+	}
+
+	.hacemos .cooperamos .grados {
+		margin-bottom: 0;
+	}
+	/* Como Cooperamos end */
+
+	/* Grados */
+	.hacemos .grados .content {
+		max-width: 345px;
+		margin: 0 auto 30px auto;
+		margin-bottom: 30px!important;
+	}
+	/* Grados end */
+
+	/* Programa de Cooperación */
+	.hacemos .programa_cooperacion h2 {
+		font-size: 1.75rem;
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+	.hacemos .programa_cooperacion .content_title {
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 30px;
+	}
+
+	.hacemos .programa_cooperacion .content_title img {
+		display: inline-block;
+		max-width: 80px;
+		margin-left: 30px;
+	}
+
+	.hacemos .programa_cooperacion .item {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	/* Programa de Cooperación end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Pos Header */
+	.hacemos .pos_header {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.hacemos .pos_header h1 br {
+		display: none;
+	}
+
+	.hacemos .pos_header .col-md-5,
+	.hacemos .pos_header .col-md-7 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hacemos .pos_header h1 {
+		font-size: 1.5rem;
+		margin-bottom: 0;
+		text-align: left;
+	}
+	/* Pos Header end */
+
+	/* Como Cooperamos */
+	.hacemos .cooperamos h2 {
+		margin-bottom: 30px;
+	}
+	/* Como Cooperamos end */
+
+	/* Grados */
+	.hacemos .grados {
+		margin-bottom: 60px;
+	}
+
+	.hacemos .grados .content {
+		max-width: 100%;
+		padding: 5px;
+		height: 365px;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 0!important;
+	}
+
+	.hacemos .grados .content h3,
+	.hacemos .grados .content p {
+		text-align: left;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.hacemos .grados .content .description_grado {
+		font-size: 0.85rem;
+	}
+	/* Grados end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Pos Header */
+	.hacemos .pos_header h1 br {
+		display: inline-block;
+	}
+
+	.hacemos .pos_header h1 {
+		font-size: 2.1rem;
+	}
+	/* Pos Header end */
+
+	/* Como Cooperamos */
+	.hacemos .cooperamos h2 {
+		font-size: 2rem;
+	}
+	/* Como Cooperamos end */
+
+	/* Grados */
+	.hacemos .grados {
+		margin-bottom: 80px;
+	}
+
+	.hacemos .grados .img {
+		margin-bottom: 60px;
+		max-width: 400px;
+	}
+
+	.hacemos .grados .content {
+		padding: 10px;
+		height: 405px;
+	}
+
+	.hacemos .grados .content .description_grado {
+		font-size: 1rem;
+	}
+	/* Grados end */
+
+	/* Programa de Cooperación */
+	.hacemos .programa_cooperacion h2 {
+		font-size: 2rem;
+	}
+
+	.hacemos .programa_cooperacion .content_title img {
+		max-width: 90px;
+		margin-left: 50px;
+	}
+
+	.hacemos .programa_cooperacion .copete {
+		font-size: 1rem;
+	}
+	/* Programa de Cooperación end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Pos Header */
+	.hacemos .pos_header h1 {
+		font-size: 2.5rem;
+	}
+	/* Pos Header end */
+
+	/* Grados */
+	.hacemos .grados {
+		margin-bottom: 100px;
+	}
+
+	.hacemos .grados .content {
+		height: 470px;
+	}
+
+	.hacemos .grados .content h3 {
+		font-size: 3rem;
+	}
+	/* Grados end */
+
+	/* Programa de Cooperación */
+	.hacemos .programa_cooperacion .caracteristicas {
+		margin-bottom: 60px;
+	}
+
+	.hacemos .programa_cooperacion .img_media {
+		margin-bottom: 60px;
+	}
+	/* Programa de Cooperación end */
+
+}
+
+@media (min-width: 1300px) {
+
+}
+
+@media (min-width: 1400px) {
+	/* Pos Header */
+	.hacemos .pos_header {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.hacemos .pos_header h1 {
+		font-size: 3rem;
+	}
+	/* Pos Header end */
+
+	/* Como Cooperamos */
+	.hacemos .cooperamos {
+		margin-bottom: 100px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.hacemos .cooperamos h2 {
+		font-size: 2.75rem;
+		margin-bottom: 50px;
+	}
+
+	.hacemos .grados .description {
+		margin-bottom: 45px;
+	}
+	/* Como Cooperamos end */
+
+	/* Grados */
+	.hacemos .grados .content {
+		height: 565px;
+		padding: 20px;
+	}
+
+	.hacemos .grados .content h3 {
+		margin-bottom: 30px;
+	}
+
+	.hacemos .grados .content .description_grado {
+		font-size: 1.25rem;
+	}
+	/* Grados end */
+
+	/* Programa de Cooperación */
+	.hacemos .programa_cooperacion {
+		margin-bottom: 120px;
+	}
+
+	.hacemos .programa_cooperacion h2 {
+		font-size: 2.75rem;
+	}
+
+	.hacemos .programa_cooperacion .content_title img {
+		max-width: 100%;
+		margin-left: 85px;
+	}
+
+	.hacemos .programa_cooperacion .caracteristicas,
+	.hacemos .programa_cooperacion .img_media {
+		margin-bottom: 100px;
+	}
+
+	.hacemos .programa_cooperacion .description {
+		font-size: 1.25rem;
+	}
+
+	.hacemos .programa_cooperacion .img_final {
+		margin-top: 100px;
+	}
+	/* Programa de Cooperación end */
+
+}
+
+@media (min-width: 1600px) {
+
+}

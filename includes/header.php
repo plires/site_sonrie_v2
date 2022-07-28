@@ -13,7 +13,7 @@
 						<a class="transition" href="./quienes-somos.php">Quienes somos</a>
 					</li>
 
-					<?php $res = $current == 'bienestar' ? 'active' : ''; ?>
+					<?php $res = $current == 'que_hacemos' ? 'active' : ''; ?>
 					<li class="<?= $res ?>">
 						<a class="transition" href="./que-hacemos.php">Que hacemos</a>
 					</li>
