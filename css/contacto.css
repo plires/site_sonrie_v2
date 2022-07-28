@@ -1,16 +1,48 @@
-/* Formulario */
-.contacto .image_form {
-	padding-top: 60px;
+/* CONTACTO */
+
+/* Pos Header */
+.section_contacto .pos_header .data {
+	background: white;
 }
 
-.contacto .formulario h1 {
-	font-size: 2rem;
+.section_contacto .pos_header h2 {
 	font-weight: 700;
-	margin-bottom: 60px;
-	text-align: center;
-	color: white;
 }
-/* Formulario end */
+
+.section_contacto .pos_header h2 .outline {
+	text-stroke-width: 1px;
+	text-stroke-color: var(--secondary-color);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: var(--secondary-color);
+	text-align: center;
+	font-size: 3rem;
+	color: transparent;
+	font-weight: 700;
+}
+/* Pos Header end */
+
+/* Donación */
+.section_contacto .donacion {
+	background: var(--back-light-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.section_contacto .content_form {
+	background: rgba(255,255,255,0.9);
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+}
+/* Donación end */
+
+/* Formulario Contacto */
+.section_contacto .formulario_contacto {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+/* Formulario Contacto end */
+
 
 /* MEDIA QUERIES */
 @media (min-width: 480px) {
@@ -19,37 +51,88 @@
 
 @media (min-width: 576px) {
 
+	/* Formulario Contacto */
+	.section_contacto .formulario_contacto {
+		background: url('../img/home/chicos.jpg');
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-position: 50% 0%;
+		background-repeat: no-repeat;
+		height: 600px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 0;
+	}
+	/* Formulario Contacto end */
+
+
 }
 
 @media (min-width: 768px) {
+
+	/* Donación */
+	.section_contacto .content_form {
+		padding: 40px 20px;
+	}
+	/* Donación end */
+
+	/* Formulario Contacto */
+	.section_contacto .formulario_contacto {
+		height: 800px;
+	}
+	/* Formulario Contacto end */
 
 }
 
 @media (min-width: 992px) {
 
-	/* Formulario */
-	.contacto .image_form {
-		background: url('../img/sumate/manos.jpg');
-		background-size: cover;
-		background-position: 50% 0%;
+	/* Pos Header */
+	.quienes .pos_header .data {
+		justify-content: flex-start;
 	}
 
-	.contacto .formulario h1 {
-		margin-bottom: 100px;
+	.section_contacto .pos_header h2 {
+		text-align: left;
 	}
 
-	.contacto .formulario .content_form {
-		margin: 20px auto 150px auto;
+	.section_contacto .pos_header h2 .outline {
+		font-size: 4.5rem;
+	}
+	/* Pos Header end */
+
+	/* Donación */
+	.section_contacto .donacion {
+		padding-top: 120px;
+		padding-bottom: 120px;
 	}
 
-	.contacto .formulario .content_form_donation {
-		margin: -60px auto 100px auto !important;
+	.section_contacto .content_form {
+		padding: 60px 20px;
 	}
-	/* Formulario end */
-
+	/* Donación end */
+	
 }
 
 @media (min-width: 1200px) {
+
+	/* Pos Header */
+	.section_contacto .pos_header h2 {
+		font-size: 2.4rem;
+	}
+
+	.section_contacto .pos_header h2 .outline {
+		font-size: 5rem;
+	}
+	/* Pos Header end */
+
+	/* Donación */
+	.section_contacto .donacion {
+	  padding-top: 150px;
+	  padding-bottom: 150px;
+	}
+	/* Donación end */
 
 }
 
@@ -57,6 +140,45 @@
 
 }
 
+@media (min-width: 1400px) {
+
+	/* Donación */
+	.section_contacto .donacion {
+	  padding-top: 130px;
+	  padding-bottom: 130px;
+	}
+	/* Donación end */
+
+	/* Formulario Contacto */
+	.section_contacto .formulario_contacto {
+	  height: 900px;
+	}
+	/* Formulario Contacto end */
+
+}
+
 @media (min-width: 1600px) {
+
+	/* Pos Header */
+	.section_contacto .pos_header h2 {
+		padding-left: 20px;
+		font-size: 3rem;
+	}
+
+	.section_contacto .pos_header h2 .outline {
+		font-size: 6rem;
+	}
+	/* Pos Header end */
+
+	/* Donación */
+	.section_contacto .donacion {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+
+	.section_contacto .content_form {
+		padding: 100px 50px;
+	}
+	/* Donación end */
 
 }
