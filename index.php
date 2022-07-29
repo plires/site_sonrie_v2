@@ -43,25 +43,65 @@
 		<!-- Header -->
 		<?php include_once('./includes/header.php'); ?>
 
-		<!-- Pos Header -->
-		<section id="first_section" class="container-fluid pos_header">
-			<div class="container">
-		  	<div class="row">
+		<!-- Slide Home -->
+		<section id="first_section" class="container-fluid slide_home">
+			<div class="row">
+				<div class="col-md-12">
+					
+					<div id="slideHomeIndicators" class="carousel slide" data-bs-ride="carousel">
 
-			  	<div class="col-lg-6">
-		        <h1>Tecnología aplicada<br>para un mundo más justo</h1>
-		        <p class="description">
-		        	En nuestra fundación trabajamos <strong>acercando la tecnología a las personas.</strong> Queremos ser el <strong>puente</strong> que conecta y provee <strong>igualdad</strong>, aportando mejoras a la salud, el bienestar y la felicidad social. 
-		        </p>
-		        <div class="text-end pe-4">
-		        	<a href="#" class="cta transition">Sumate <i class="fa-solid fa-arrow-right-long transition"></i></a>
-		        </div>
-			  	</div>
+					  <div class="carousel-indicators">
+					    <button type="button" data-bs-target="#slideHomeIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    <button type="button" data-bs-target="#slideHomeIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    <button type="button" data-bs-target="#slideHomeIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  </div>
 
-		  	</div>
+					  <div class="carousel-inner">
+
+					    <div id="slide_a" class="carousel-item active">
+					      <div class="row">
+					      	<div class="col-lg-6 img"></div>
+					      	<div class="col-lg-6 txt">
+					      		<h1>Estrechamos lazos entre todas las organizaciones voluntarias para, entre todos, ayudarnos a ayudar y dar cada día más!!</h1>
+					      	</div>
+					      </div>
+					    </div>
+
+					    <div id="slide_b" class="carousel-item">
+					      <div class="row">
+					      	<div class="col-lg-6 img"></div>
+					      	<div class="col-lg-6 txt">
+					      		<h2>Encontrá tu motivo <br>para existir.</h2>
+					      	</div>
+					      </div>
+					    </div>
+
+					    <div id="slide_c" class="carousel-item">
+					      <div class="row">
+					      	<div class="col-lg-6 img"></div>
+					      	<div class="col-lg-6 txt">
+					      		<h2>Buscando nuevas <br>formas de ayudar!</h2>
+					      	</div>
+					      </div>
+					    </div>
+
+					  </div>
+
+					  <button class="carousel-control-prev" type="button" data-bs-target="#slideHomeIndicators" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+
+					  <button class="carousel-control-next" type="button" data-bs-target="#slideHomeIndicators" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+
+					</div>
+				</div>
 			</div>
 		</section>
-		<!-- Pos Header end -->
+		<!-- Slide Home end -->
 
 		<!-- Tecnología en Manos -->
 		<section class="container tecnologia_en_manos">

@@ -3,43 +3,66 @@
 	position: relative;
 }
 
-/* Pos Header */
-.home .pos_header {
-	background: url('../img/home/slide-a-mobile.jpg');
-	background-position: 100% 50%;
+/* Slide Home */
+.home .slide_home {
+	margin-bottom: 60px;
+}
+
+.home .slide_home .col-md-12 {
+	padding: 0;
+}
+
+.home .slide_home .carousel-item .row {
+	position: relative;
+}
+
+.home .slide_home .img {
+	background: url('../img/home/slide-a-desktop.jpg');
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	min-height: 630px;
 	height: 630px;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
 }
 
-.home .pos_header .container {
-	height: 100%!important;
+.home .slide_home #slide_b .img {
+	background: url('../img/home/slide-b-desktop.jpg');
+	background-position: 68% 50%;
 }
 
-.home .pos_header .row {
-	height: 100%!important;
-	display: flex;
-	align-items: flex-end;
-	text-align: right;
+.home .slide_home #slide_c .img {
+	background: url('../img/home/slide-c-desktop.jpg');
+	background-position: 48% 50%;
 }
 
-.home .pos_header h1 {
-	font-weight: 700;
-	color: var(--secondary-color);
-	margin-bottom: 10px;
+.home .slide_home .txt {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-right: 24px;
+	padding-left: 24px;
+	padding-bottom: 12px;
 }
 
-.home .pos_header p {
-	color: var(--secondary-color);
+.home .slide_home .txt h1,
+.home .slide_home .txt h2 {
+	color: white;
+	font-size: 1.25rem;
+	text-align: center;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
 }
 
-.home .pos_header .cta {
-	display: inline-block;
-	margin-top: 10px;
+.home .slide_home .carousel-indicators {
+	bottom: -55px;
 }
-/* Pos Header end */
+
+.home .slide_home .carousel-indicators [data-bs-target] {
+	width: 15px;
+	height: 15px;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-radius: 50%;
+	background-color: var(--primary-color);
+}
+/* Slide Home end */
 
 /* Tecnología en Manos */
 .home .tecnologia_en_manos {
@@ -198,12 +221,20 @@
 
 @media (min-width: 576px) {
 
-	/* Pos Header */
-	.home .pos_header {
-		background: url('../img/home/slide-a.jpg');
-		margin-bottom: 60px;
+	/* Slide Home */
+	.home .slide_home {
+		margin-bottom: 100px;
 	}
-	/* Pos Header end */
+
+	.home .slide_home .txt h1, 
+	.home .slide_home .txt h2 {
+		font-size: 1.75rem;
+	}
+
+	.home .slide_home .carousel-indicators {
+		bottom: -85px;
+	}
+	/* Slide Home end */
 
 	/* Tecnología en Manos */
 	.home .tecnologia_en_manos {
@@ -257,6 +288,17 @@
 
 @media (min-width: 768px) {
 
+	/* Slide Home */
+	.home .slide_home .txt {
+		padding-bottom: 24px;
+	}
+
+	.home .slide_home .txt h1, 
+	.home .slide_home .txt h2 {
+		font-size: 2rem;
+	}
+	/* Slide Home end */
+
 	/* Tecnología en Manos */
 	.home .tecnologia_en_manos .content {
 		padding: 40px 60px;
@@ -282,6 +324,31 @@
 }
 
 @media (min-width: 992px) {
+
+	/* Slide Home */
+	.home .slide_home .txt h1, 
+	.home .slide_home .txt h2 {
+		width: 420px;
+	}
+
+	.home .slide_home .txt {
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding-right: calc(var(--bs-gutter-x) * 1);
+		padding-left: calc(var(--bs-gutter-x) * 1);
+		padding-bottom: 0;
+	}
+
+	.home .slide_home .txt h1, 
+	.home .slide_home .txt h2 {
+		color: var(--secondary-color);
+		text-shadow: none;
+		font-weight: 700;
+		text-align: left;
+	}
+	/* Slide Home end */
 
 	/* Tecnología en Manos */
 	.home .tecnologia_en_manos {
@@ -386,33 +453,16 @@
 
 @media (min-width: 1200px) {
 
-	/* Pos Header */
-	.home .pos_header {
-		min-height: 700px;
+	/* Slide Home */
+	.home .slide_home .img {
 		height: 700px;
 	}
 
-	.home .pos_header h1 {
-		margin-bottom: 30px;
+	.home .slide_home .txt h1, 
+	.home .slide_home .txt h2 {
+		width: 510px;
 	}
-
-	.home .pos_header p {
-		font-size: 1.125rem;
-	}
-
-	.home .pos_header .cta {
-		font-size: 1.25rem;
-		margin-top: 0;
-	}
-
-	.home .pos_header .cta i {
-		right: -30px;
-	}
-
-	.home .pos_header .cta:hover i {
-		right: -40px;
-	}
-	/* Pos Header end */
+	/* Slide Home end */
 
 	/* Tecnología en Manos */
 	.home .tecnologia_en_manos {
@@ -475,11 +525,17 @@
 
 @media (min-width: 1400px) {
 
-	/* Pos Header */
-	.home .pos_header {
-		margin-bottom: 100px;
+	/* Slide Home */
+	.home .slide_home .img {
+		height: 80vh;
 	}
-	/* Pos Header end */
+
+	.home .slide_home .txt h1, 
+	.home .slide_home .txt h2 {
+		font-size: 2.3rem;
+		width: 590px;
+	}
+	/* Slide Home end */
 
 	/* Programas */
 	.home .programas .content {
@@ -552,5 +608,13 @@
 }
 
 @media (min-width: 1600px) {
+
+	/* Slide Home */
+	.home .slide_home .txt h1, 
+	.home .slide_home .txt h2 {
+		font-size: 2.7rem;
+		width: 700px;
+	}
+	/* Slide Home end */
 
 }
