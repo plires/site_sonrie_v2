@@ -200,6 +200,11 @@ header.background nav ul li.active a {
 	color: var(--secondary-color);
 }
 
+header nav.active ul li.active a,
+header.background nav.active ul li.active a {
+	color: var(--primary-color);
+}
+
 header #hamburger {
 	font-size: 2rem;
 	color: white;
