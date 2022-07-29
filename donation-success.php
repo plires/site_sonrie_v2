@@ -29,14 +29,6 @@
       $total_paid_amount = $payment->transaction_amount;
       $payment_type_id = $payment->payment_type_id;
       $description = $payment->description;
-
-      // $msg_whatsapp = '';
-      // $msg_whatsapp .= '*Hola Hotel Jonde,* Acabo de realizar la siguiente compra online: ' . "%0A";
-      // $msg_whatsapp .= '*Cupón:* ' . $order_id .  "%0A";
-      // $msg_whatsapp .= '*Habitación elegida:* ' . $description . "%0A";
-      // $msg_whatsapp .= '*Medio de Pago:* ' . $payment_type_id . "%0A";
-      // $msg_whatsapp .= '*Valor:* ' . $currency_id .' '. $total_paid_amount . "%0A";
-
     }
 
   }
@@ -68,13 +60,13 @@ fue la creación del PROGRAMA Rinascere">
   <?php include_once("./includes/tag_manager_body.php"); ?>
 
   <!-- Contenido DONACIÓN -->
-  <section class="transition investigacion">
+  <section class="transition payment_content">
 
     <!-- Header -->
     <?php include_once('./includes/header.php'); ?>
 
     <!-- Header Pago -->
-    <section id="first_section" class="container-fluid content_image_header header_investigacion">
+    <section id="first_section" class="container-fluid content_image_header">
 
       <div class="container payment">
       
@@ -99,7 +91,7 @@ fue la creación del PROGRAMA Rinascere">
             
             <p>Compartimos los datos de tu transacción para tu control.</p>
 
-            <p>
+            <p class="parrafo_payment">
               <br>
               <strong>NÚMERO DE CUPÓN:&nbsp;&nbsp;</strong><?= $order_id; ?><br>
               <strong>DESTINATARIO:&nbsp;&nbsp;</strong><?= $description; ?><br>

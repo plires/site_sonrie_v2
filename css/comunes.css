@@ -270,6 +270,10 @@ header .col-md-12 {
 	border-color: white!important;
 	color: white!important;
 }
+
+.payment .parrafo_payment {
+	color: white;
+}
 /* Payment end */
 
 /* Ayuda y Doná */
@@ -449,6 +453,27 @@ footer .data a:last-child {
 }
 /* Footer end */
 
+/* Payment */
+	.payment_content {
+		background: url('../img/payment/header.jpg');
+		background-position: 30% 50% !important;
+		background-size: cover !important;
+	}
+
+	.payment_content h1 {
+		font-size: 2rem;
+	}
+
+	.content_image_header {
+		background-size: cover !important;
+		background-position: 50% 50% !important;
+		background-repeat: no-repeat !important;
+		min-height: 520px !important;
+		display: flex !important;
+		justify-content: center !important;
+		align-items: flex-end !important;
+	}
+/* Payment end */
 
 /* MEDIA QUERIES */
 @media (min-width: 480px) {
@@ -498,6 +523,12 @@ footer .data a:last-child {
 		font-size: 1.5rem;
 	}
 	/* Contacto end */
+
+	/* Payment */
+	.payment_content h1 {
+		text-align: left;
+	}
+	/* Payment end */
 
 }
 
@@ -611,6 +642,12 @@ footer .data a:last-child {
 	}
 	/* Contacto end */
 
+	/* Payment */
+	.content_image_header {
+		min-height: 610px!important;
+	}
+	/* Payment */
+
 }
 
 @media (min-width: 1300px) {
@@ -620,6 +657,12 @@ footer .data a:last-child {
 		font-size: 1.25rem;
 	}
 	/* Comunes end */
+
+	/* Payment */
+	.content_image_header {
+	  min-height: 90vh !important;
+	}
+	/* Payment end */
 
 }
 
@@ -645,5 +688,12 @@ footer .data a:last-child {
 }
 
 @media (min-width: 1600px) {
+
+	/* Payment */
+	.payment_content h1 {
+		font-size: 3rem;
+	}
+	/* Payment end */
+
 
 }

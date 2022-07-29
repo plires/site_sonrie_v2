@@ -16,8 +16,6 @@
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -43,13 +41,13 @@
   <?php include_once("./includes/tag_manager_body.php"); ?>
 
   <!-- Contenido DONACIÓN -->
-  <section class="transition investigacion">
+  <section class="transition payment_content">
 
     <!-- Header -->
     <?php include_once('./includes/header.php'); ?>
 
     <!-- Header Pago -->
-    <section id="first_section" class="container-fluid content_image_header header_investigacion">
+    <section id="first_section" class="container-fluid content_image_header">
 
       <div class="container payment">
       
@@ -66,7 +64,7 @@
             <h2>No pudimos procesar tu donación.</h2>
 
             <p class="parrafo">
-              Tuviste algún problema para realizar la donación. Por favor <a class="transition link" href="./contacto.php">cantactanos</a>
+              Tuviste algún problema para realizar la donación?. Por favor <a class="transition link" href="./contacto.php">cantactanos</a>
             </p>
 
             <hr class="my-4">

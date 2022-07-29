@@ -7,16 +7,14 @@
 
   require __DIR__  . '/vendor/autoload.php';
 
-  // if ( !isset($_GET['payment_id']) || empty($_GET['payment_id'])) {
+  if ( !isset($_GET['payment_id']) || empty($_GET['payment_id'])) {
 
-  //   header("Location: " . BASE );
-  //   die();
+    header("Location: " . BASE );
+    die();
     
-  // }
+  }
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="es">
@@ -43,13 +41,13 @@
   <?php include_once("./includes/tag_manager_body.php"); ?>
 
   <!-- Contenido DONACIÓN -->
-  <section class="transition investigacion">
+  <section class="transition payment_content">
 
     <!-- Header -->
     <?php include_once('./includes/header.php'); ?>
 
     <!-- Header Pago -->
-    <section id="first_section" class="container-fluid content_image_header header_investigacion">
+    <section id="first_section" class="container-fluid content_image_header">
 
       <div class="container payment">
       
