@@ -123,7 +123,7 @@
 		        		</p>
 		        	</div>
 		        </div>
-		        <a href="#" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
+		        <a href="quienes-somos.php" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
 		  		</div>
 
 		  	</div>
@@ -157,7 +157,7 @@
 		        			<p class="description_grado">
 		        				 Impacto en las necesidades básicas individuales
 		        			</p>
-		        			<a href="#" class="btn btn-primary">ver más</a>
+		        			<a href="que-hacemos.php#grados_bienestar" class="btn btn-primary">ver más</a>
 		        		</div>
 		        	</div>
 
@@ -168,7 +168,7 @@
 		        			<p class="description_grado">
 		        				  Impacto en las necesidades sociales 
 		        			</p>
-		        			<a href="#" class="btn btn-primary">ver más</a>
+		        			<a href="que-hacemos.php#grados_bienestar" class="btn btn-primary">ver más</a>
 		        		</div>
 		        	</div>
 
@@ -179,7 +179,7 @@
 		        			<p class="description_grado">
 		        				  Impacto en las necesidades emocionales y espirituales
 		        			</p>
-		        			<a href="#" class="btn btn-primary">ver más</a>
+		        			<a href="que-hacemos.php#grados_bienestar" class="btn btn-primary">ver más</a>
 		        		</div>
 		        	</div>
 
@@ -203,12 +203,12 @@
 
 		  	<div data-aos="fade-up" class="col-md-6 programa_cooperacion">
 		  		<h3>Programa de<br>cooperación</h3>
-		  		<a href="#" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
+		  		<a href="que-hacemos.php" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
 		  	</div>
 
 		  	<div data-aos="fade-up" class="col-md-6 centro_desarrollo">
 		  		<h3>Centro de<br>investigación y<br>desarrollo</h3>
-		  		<a href="#" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
+		  		<a href="investigacion.php" class="cta transition">Conocé más <i class="fa-solid fa-arrow-right-long transition"></i></a>
 		  	</div>
 
 	  	</div>

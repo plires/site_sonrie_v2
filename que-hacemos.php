@@ -83,7 +83,7 @@
 		<!-- Como Cooperamos end -->
 
 		<!-- Grados -->
-		<section class="container grados">
+		<section id="grados_bienestar" class="container grados">
 
   		<div class="row">
 
