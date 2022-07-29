@@ -196,8 +196,8 @@
       .button-td-primary:hover,
       .button-a-primary:hover {
           background: #fff5e3 !important;
-            border-color: #190080 !important;
-          color: #190080 !important;
+            border-color: #4bc186 !important;
+          color: #4bc186 !important;
       }
 
         .button-td-secondary:hover,
@@ -315,14 +315,14 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://sonrielavida.org/landing/img/header-email.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://sonrielavida.org/new_site/img/email/email-header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
           <!-- Header end-->
 
           <!-- Texto-->
-          <tr style="background-color: #190080;">
+          <tr style="background-color: #4bc186;">
               <td style="padding: 10px; vertical-align: middle;">
                   
                   <h1 class="fallback-font" style="margin: 0px!important; font-family: 'Montserrat', sans-serif; font-size: 28px; color: #FFFFFF; text-align: center; font-weight: 700;">
@@ -376,8 +376,8 @@
           <!-- Texto end-->
 
           <!-- Boton : BEGIN -->
-          <tr style="background-color: #190080;">
-              <td style="background-color: #190080; text-align: center; padding: 40px;">
+          <tr style="background-color: #4bc186;">
+              <td style="background-color: #4bc186; text-align: center; padding: 40px;">
 
                 <p class="fallback-font" style="margin: 0 0 10px; margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: center; font-weight: 400;">
                   <strong>¿Necesitas responder a este usuario?</strong>
@@ -386,7 +386,7 @@
                   <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
                       <tr>
                           <td class="button-td button-td-primary" style="border-radius: 4px; background: #FFFFFF;">
-                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="mailto:{email_user}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #190080; display: block; border-radius: 4px;">RESPONDER
+                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="mailto:{email_user}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #4bc186; display: block; border-radius: 4px;">RESPONDER
                               </a>
                           </td>
                       </tr>
