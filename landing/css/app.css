@@ -1,0 +1,949 @@
+@import "fonts.css";
+
+/* COMUNES */
+/* Variables */
+:root {
+  --primary-color: rgba(128, 151, 197, 1);
+  --secondary-color: rgba(25, 0, 128, 1);
+  --back-light-color: rgba(229, 229, 229, 1);
+}
+/* Variables end */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.back_light_color {
+  background: var(--back-light-color);
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #8097c5, #5c76b9, #3f54aa, #283097, #190080);
+}
+
+.gradient_50 {
+  background-image: linear-gradient(to right, #8097c5, #6f85be, #6173b7, #5661ae, #4e4ea4);
+}
+
+.alert { 
+  width: 100%; 
+}
+
+.transition{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color)!important;
+  border-color: var(--secondary-color)!important;
+  color: white!important;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+  color: white!important;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+  box-shadow: none!important;
+}
+
+input:focus,
+input:active,
+select:focus,
+select:active,
+textarea:focus-visible,
+textarea:focus-visible  {
+  box-shadow: none!important;
+}
+
+input:focus-visible,
+input:focus-visible {
+  border-color: var(--secondary-color);
+}
+/* COMUNES END */
+
+/* HOME */
+.home {
+	position: relative;
+}
+/* HOME end */
+
+/* Header */
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background:  var(--back-light-color);
+	z-index: 1;
+}
+
+header .col-md-12 {
+	display: flex;
+	justify-content: center;
+}
+
+header.background {
+	position: fixed;
+	top: 0;
+	height: 60px;
+	box-shadow: 0px 3px 3px -3px rgba(0,0,0,0.1);
+}
+
+header.background .logo {
+	content:url("../img/iso-header.png");
+	max-width: 40px;
+}
+
+header .col-md-12 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .logo {
+	max-width: 150px;
+}
+/* Header end */
+
+/* Pos Header */
+.pos_header {
+	margin-bottom: 60px;
+}
+
+.pos_header .col-sm-7 p {
+	margin-bottom: 0;
+}
+
+.pos_header .gradient {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.pos_header .gradient h1 {
+	color: white;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.pos_header .gradient p {
+	color: white;
+}
+
+.pos_header .img_fundacion {
+	height: 100%;
+}
+/* Pos Header end */
+
+/* Formulario */
+.formulario {
+	margin-bottom: 60px;
+}
+
+.formulario h2 {
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.formulario p {
+	text-align: center;
+}
+
+.formulario .form-label {
+	font-weight: 300;
+	font-size: 0.85rem;
+}
+
+.formulario #send {
+	margin-top: 30px;
+}
+
+.formulario #wait {
+	display: none;
+}
+
+.formulario #wait.active {
+	display: inline-block;
+}
+/* Formulario end */
+
+/* Foco de Trabajo */
+.foco_trabajo {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.foco_trabajo h2 {
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* Foco de Trabajo end */
+
+/* Grados */
+.grados {
+	padding-top: 30px;
+	background-image: url('../img/fondo-ondas.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+
+.grados h2 {
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.grados .content_grado {
+	position: relative;
+}
+
+.grados .grado_individual {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grados .content_data {
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.grados .content_data h3 {
+	color: white;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.grados .content_data p {
+	color: white;
+	margin-bottom: 0;
+}
+/* Grados end */
+
+/* Imagen Amigos */
+.imagen_amigos {
+	background-image: url('../img/amigos.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: center;
+}
+
+.imagen_amigos h2 {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+/* Imagen Amigos end */
+
+/* Valores */
+.valores {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.valores .content_valor {
+	background: white;
+	border-radius: 8px;
+	padding: 12px;
+	margin-bottom: 30px;
+}
+
+.valores .col-md-12:last-child .content_valor {
+	margin-bottom: 0;
+}
+
+.valores .content_valor .content_title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.valores .content_valor p {
+	margin-bottom: 0;
+}
+
+.valores .content_valor .content_title h2 {
+	color: var(--secondary-color);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.valores .content_valor .content_title img {
+	max-width: 35px;
+}
+/* Valores end */
+
+/* Rinascere */
+.rinascere {
+	margin-bottom: 60px;
+}
+
+.rinascere .image {
+	margin-bottom: 30px;
+	background-image: url('../img/rinacere.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: center;
+	height: 300px;
+	padding: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.rinascere .image h2 {
+	color: white;
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.rinascere .image h3 {
+	color: white;
+	text-align: left;
+	font-size: 1.125rem;
+	margin-bottom: 0;
+}
+
+.rinascere .red {
+	background-image: url('../img/red.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.rinascere .red h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.rinascere .content_frase {
+	padding-right: var(--bs-gutter-x,.375rem)!important;
+	padding-left: var(--bs-gutter-x,.375rem)!important;
+}
+
+.rinascere .cta {
+	text-align: center;
+}
+/* Rinascere end */
+
+/* Testimonios */
+.testimonios h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.testimonios .content_info {
+	padding: 15px;
+	color: white;
+}
+
+.testimonios .content_info p:last-child {
+	font-size: 0.85rem;
+	margin-bottom: 0;
+	line-height: 1.2;
+	text-align: right;
+}
+
+.testimonios .content_info p:last-child span {
+	font-weight: 300;
+}
+
+.testimonios .people .image {
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	background-size: cover;
+	height: 500px;
+	margin-bottom: 30px;
+}
+
+.testimonios .people .image img {
+	display: none;
+}
+
+.testimonios .people #testimonio-1 .col-md-6:last-child .image {
+	background-image: url('../img/testimonios-1.jpg');
+}
+
+.testimonios .people #testimonio-2 .col-md-6:last-child .image {
+	background-image: url('../img/testimonios-2.jpg');
+	background-position: 50% 10%;
+	margin-bottom: 0;
+}
+/* Testimonios end */
+
+/* Footer */
+footer {
+	background: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer .col-md-10 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+footer .col-md-10 .rrss,
+footer .col-md-10 .data {
+	align-self: flex-start;
+}
+
+footer .logo_footer {
+	max-width: 15%;
+	margin-bottom: 20px;
+}
+
+footer .col-md-10 .rrss {
+	margin-bottom: 20px;
+}
+
+footer .col-md-10 .rrss a,
+footer .col-md-10 .rrss i,
+footer .col-md-10 .data a,
+footer .col-md-10 .data i {
+	color: white;
+	font-size: 0.85rem;
+}
+
+footer .col-md-10 .data i {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+footer .col-md-10 .data a:first-child {
+	margin-bottom: 15px;
+}
+
+footer .col-md-10 .rrss a,
+footer .col-md-10 .rrss i {
+	font-size: 1.25rem;
+	margin-right: 5px;
+}
+
+footer .col-md-10 .rrss a:hover,
+footer .col-md-10 .rrss i:hover,
+footer .col-md-10 .data a:hover,
+footer .col-md-10 .data i:hover {
+	color: var(--primary-color);
+}
+/* Footer end */
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Testimonios */
+  .testimonios .content_info {
+  	min-height: 160px;
+  	display: flex;
+  	justify-content: space-between;
+  	flex-direction: column;
+  }
+
+  .testimonios .content_info p {
+  	margin: 0;
+  	font-size: 0.85rem;
+  }
+	/* Testimonios end */
+
+	/* Pos Header */
+	.pos_header .gradient h1 {
+		margin-bottom: 30px;
+	}
+	/* Pos Header end */
+
+	/* Foco de Trabajo */
+	.foco_trabajo h2 {
+		font-size: 1.75rem;
+	}
+	/* Foco de Trabajo end */
+
+	/* Foco de Grados */
+	.grados h2 {
+		font-size: 1.75rem;
+	}
+	/* Foco de Grados end */
+
+	/* Testimonios */
+	.testimonios h2 {
+		font-size: 1.75rem;
+	}
+	/* Testimonios end */
+
+	/* Valores */
+	.valores .content_valor {
+		padding: 25px;
+	}
+	/* Valores end */
+
+	/* Footer */
+	footer .logo_footer {
+		max-width: 60px;
+	}
+	/* Footer end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Foco de Trabajo */
+	.foco_trabajo {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	/* Foco de Trabajo end */
+
+	/* Grados */
+	.grados {
+		padding-top: 60px;
+	}
+	/* Grados end */
+
+	/* Imagen Amigos */
+	.imagen_amigos {
+		height: 360px;
+	}
+
+	.imagen_amigos h2 {
+		font-size: 2.25rem;
+	}
+	/* Imagen Amigos end */
+
+	/* Valores */
+	.valores .content_valor {
+		padding: 60px;
+	}
+	/* Valores end */
+
+	/* Rinascere */
+	.rinascere .image {
+		height: 360px;
+	}
+
+	.rinascere .image h2 {
+		font-size: 2.5rem;
+	}
+
+	.rinascere .image h3 {
+		font-size: 1.25rem;
+	}
+
+	.rinascere .red {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.rinascere .red h2 {
+		margin-bottom: 30px;
+	}
+
+	.rinascere .cta {
+		margin-top: 30px;
+	}
+	/* Rinascere end */
+
+	/* Testimonios */
+	.testimonios .back_light_color {
+		padding-top: 60px!important;
+		padding-bottom: 60px!important;
+	}
+
+	.testimonios .content_info {
+		height: 100%;
+	} 
+
+	.testimonios .people #testimonio-1 .col-md-6:last-child .image {
+		margin-bottom: 0;
+	}
+
+	.testimonios .people #testimonio-1 .col-md-6:first-child,
+	.testimonios .people #testimonio-2 .col-md-6:first-child {
+		padding-right: 0;
+	}
+
+	.testimonios .people #testimonio-1 .col-md-6:last-child,
+	.testimonios .people #testimonio-2 .col-md-6:last-child {
+		padding-left: 0;
+	}
+
+	.testimonios .content_info p {
+		font-size: 1rem;
+		position: relative;
+	}
+
+	.testimonios .content_info p:first-child {
+		margin-top: 60px;
+		padding-bottom: 30px;
+	}
+
+	.testimonios .content_info p:first-child:before {
+		content: '\201C';
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: 4rem;
+		margin-top: -60px;
+	}
+
+	.testimonios .content_info p:first-child:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 60px;
+		height: 5px;
+		background: white;
+	}
+	/* Testimonios end */
+	
+}
+
+@media (min-width: 992px) {
+
+	/* Pos Header */
+	.pos_header ,
+	.pos_header .gradient {
+		height: 80vh;
+	}
+
+	.pos_header .col-sm-5 {
+		background-image: url('../img/colibri.jpg');
+		background-repeat: no-repeat;
+		background-position: 63% 50%;
+		background-size: cover;
+	}
+
+	.pos_header .img_fundacion {
+		display: none;
+	}
+
+	.pos_header .gradient h1 {
+		font-size: 2.5rem;
+	}
+	/* Pos Header end */
+
+	/* Formulario */
+	.formulario .content_form {
+		background: rgba(255, 255, 255, 0.8);
+		margin: -160px auto 0 auto;
+		padding: 60px;
+		border-radius: 10px;
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		max-width: 85%;
+	}
+
+	.formulario h2 {
+		max-width: 80%;
+		margin: 0 auto 30px auto;
+		font-size: 1.5rem;
+	}
+
+	.formulario p {
+		max-width: 80%;
+		margin: 0 auto 30px auto;
+	}
+	/* Formulario end */
+
+	/* Grados */
+	.grados .content_data {
+		top: 60px;
+		margin-top: 170px;
+	}
+	/* Grados end */
+
+	/* Imagen Amigos */
+	.imagen_amigos {
+		height: 540px;
+	}
+
+	.imagen_amigos h2 {
+		font-size: 3rem;
+		margin-bottom: 60px;
+	}
+	/* Imagen Amigos end */
+
+	/* Valores */
+	.valores .content_valor .content_title {
+		margin-bottom: 20px;
+	}
+
+	.valores .content_valor .content_title h2 {
+		font-size: 2rem;
+		margin-left: 15px;
+	}
+
+	.valores .content_valor .content_title img {
+		max-width: 50px;
+	}
+	/* Valores end */
+
+	/* Rinascere */
+	.rinascere .image {
+		height: 540px;
+		padding-bottom: 90px;
+	}
+	/* Rinascere end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Testimonios */
+	.testimonios .content_info {
+		justify-content: space-around;
+	}
+	/* Testimonios end */
+
+}
+
+@media (min-width: 1300px) {
+
+	/* Comunes */
+	.btn-primary {
+		font-size: 1.25rem;
+	}
+	/* Comunes end */
+
+	/* Pos Header */
+	.pos_header ,
+	.pos_header .gradient {
+		height: 90vh;
+	}
+
+	.pos_header .col-sm-5 {
+		background-position: 50% 80%;
+	}
+	/* Pos Header end */
+
+	/* Formulario */
+	.formulario .content_form {
+		margin: -200px auto 0 auto;
+	}
+	/* Formulario end */
+
+	/* Foco de Trabajo */
+	.foco_trabajo {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+
+	.foco_trabajo h2 {
+		font-size: 2rem;
+		margin-bottom: 60px;
+	}
+
+	.foco_trabajo p {
+		font-size: 1.25rem;
+		margin-bottom: 60px;
+	}
+	/* Foco de Trabajo end */
+
+	/* Grados */
+	.grados {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+	.grados h2 {
+		font-size: 2rem;
+		margin-bottom: 60px;
+	}
+
+	.grados .content_data {
+		top: 170px;
+	}
+	/* Grados end */
+
+	/* Amigos */
+	.imagen_amigos {
+		height: 750px;
+	}
+
+	.imagen_amigos h2 {
+		font-size: 3.5rem;
+		margin-bottom: 100px;
+	}
+	/* Amigos end */
+
+	/* Valores */
+	.valores {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+
+	.valores .content_valor {
+		margin-bottom: 80px;
+	}
+
+	.valores .content_valor p {
+		font-size: 1.15rem;
+	}
+	/* Valores end */
+
+	/* Rinascere */
+	.rinascere .image {
+		height: 750px;
+	}
+
+	.rinascere .image h2 {
+		font-size: 3rem;
+	}
+
+	.rinascere .red h2 {
+		font-size: 1.75rem;
+	}
+
+	.rinascere .red p {
+		font-size: 1.15rem;
+		margin-bottom: 60px;
+	}
+	/* Rinascere end */
+
+	/* Testimonios */
+	.testimonios .back_light_color {
+		padding-top: 60px!important;
+		padding-bottom: 120px!important;
+	}
+
+	.testimonios h2 {
+		font-size: 2rem;
+	}
+	/* Testimonios end */
+
+	/* Footer */
+	footer .col-md-10 {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	footer .logo_footer {
+		margin-bottom: 0;
+	}
+
+	footer .col-md-10 .rrss {
+		margin-bottom: 0;
+		align-self: center;
+	}
+
+	footer .col-md-10 .rrss a, 
+	footer .col-md-10 .rrss i {
+		margin-right: 20px;
+	}
+
+	footer .col-md-10 .rrss a:last-child, 
+	footer .col-md-10 .rrss i:last-child {
+		margin-right: 0;
+	}
+	/* Footer end */
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Pos Header */
+	.pos_header .gradient h1 {
+		font-size: 3.5rem;
+		margin-bottom: 40px;
+	}
+
+	.pos_header .gradient p {
+		font-size: 1.25rem;
+	}
+	/* Pos Header end */
+
+	/* Formulario */
+	.formulario h2 {
+		font-size: 1.75rem;
+	}
+
+	.formulario p {
+		font-size: 1.15rem;
+	}
+
+	.formulario #send {
+		margin-top: 60px;
+	}
+	/* Formulario end */
+
+	/* Foco de Trabajo */
+	.foco_trabajo {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	/* Foco de Trabajo end */
+
+	/* Testimonios */
+	.testimonios .content_info p {
+		font-weight: 700;
+		font-size: 1.25rem;
+	}
+
+	.testimonios .content_info p:last-child {
+		line-height: 1.5;
+	}
+
+	.testimonios .content_info p:first-child::before {
+		margin-top: -80px;
+		padding-bottom: 50px;
+	}
+	/* Testimonios end */
+
+}
