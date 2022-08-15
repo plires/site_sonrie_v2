@@ -32,7 +32,7 @@
 	<?php include_once("./includes/tag_manager_body.php"); ?>
 
 	<!-- Contenido INVESTIGACION -->
-	<section id="app" class="transition investigacion">
+	<section id="app" class="investigacion">
 
 		<!-- Header -->
 		<?php include_once('./includes/header.php'); ?>

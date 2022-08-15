@@ -35,7 +35,7 @@
 	<?php include_once("./includes/tag_manager_body.php"); ?>
 
 	<!-- Contenido CONTACTO -->
-	<section id="app" class="transition quienes section_contacto">
+	<section id="app" class="quienes section_contacto">
 
 		<!-- Modal Confirmation -->
 		<?php include('./includes/modal-confirmation-donation.php'); ?>

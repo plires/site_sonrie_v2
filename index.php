@@ -35,7 +35,7 @@
 	<?php include_once("./includes/tag_manager_body.php"); ?>
 
 	<!-- Contenido HOME -->
-	<section id="app" class="transition home">
+	<section id="app" class="home">
 
 		<!-- Modal Confirmation -->
 		<?php include('./includes/modal-confirmation-donation.php'); ?>
