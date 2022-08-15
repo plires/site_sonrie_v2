@@ -317,7 +317,7 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://sonrielavida.org/new_site/img/email/email-header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://sonrielavida.org/img/email/email-header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
