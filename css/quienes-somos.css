@@ -46,6 +46,7 @@
 
 .quienes .historia p {
 	color: white;
+	text-align: justify;
 }
 
 .quienes .historia .content:first-child {
@@ -185,6 +186,7 @@
 	margin-bottom: 0;
 	font-weight: 300;
 	font-size: 0.95rem;
+	text-align: justify;
 }
 
 .quienes .nuestra_historia .content_img_colibri {

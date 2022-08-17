@@ -31,12 +31,13 @@
 
 .hacemos .cooperamos p {
 	color: white;
+	text-align: justify;
 }
 /* Como Cooperamos end */
 
 /* Grados */
-.hacemos .grados {
-	margin-bottom: 60px;
+.hacemos .cooperamos .grados {
+	text-align: left;
 }
 
 .hacemos .grados .content_img {

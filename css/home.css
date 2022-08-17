@@ -75,6 +75,10 @@
 	font-size: 1.125rem;
 	margin-bottom: 12px;
 }
+
+.home .tecnologia_en_manos p {
+	text-align: justify;
+}
 /* Tecnología en Manos end */
 
 /* Programas */
