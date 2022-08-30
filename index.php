@@ -242,13 +242,22 @@
 			<div class="container">
 				<div class="row">
 					
-					<div class="col-md-10 offset-md-1 content_logos">
-						<img class="img-fluid" src="./img/home/logo-azul.gif" alt="logo azul">
-						<img class="img-fluid" src="./img/home/hospital-militar.gif" alt="logo hospital militar">
-						<img class="img-fluid" src="./img/home/boca.gif" alt="logo boca">
-						<img class="img-fluid" src="./img/home/river.gif" alt="logo river">
-						<img class="img-fluid" src="./img/home/municipalidad-suipacha.gif" alt="logo municipalidad suipacha">
-						<img class="img-fluid" src="./img/home/fuerzas-armadas.gif" alt="logo fuerzas armadas">
+					<div class="col-md-12 content_logos">
+						<img class="img-fluid" src="./img/home/logos-clientes/hospital-militar.jpg" alt="logo hospital militar">
+						<img class="img-fluid" src="./img/home/logos-clientes/boca.jpg" alt="logo boca">
+						<img class="img-fluid" src="./img/home/logos-clientes/river.jpg" alt="logo river">
+						<img class="img-fluid" src="./img/home/logos-clientes/uai.jpg" alt="logo uai">
+						<img class="img-fluid" src="./img/home/logos-clientes/cifal.jpg" alt="logo cifal">
+						<img class="img-fluid" src="./img/home/logos-clientes/unitar.jpg" alt="logo unitar">
+						<img class="img-fluid" src="./img/home/logos-clientes/fuerzas-armadas.jpg" alt="logo fuerzas-armadas">
+						<img class="img-fluid" src="./img/home/logos-clientes/municipalidad-suipacha.jpg" alt="logo municipalidad-suipacha">
+						<img class="img-fluid" src="./img/home/logos-clientes/istec.jpg" alt="logo istec">
+						<img class="img-fluid" src="./img/home/logos-clientes/ministerio-desarrollo.jpg" alt="logo ministerio-desarrollo">
+						<img class="img-fluid" src="./img/home/logos-clientes/ospatrones.jpg" alt="logo ospatrones">
+						<img class="img-fluid" src="./img/home/logos-clientes/cirec.jpg" alt="logo cirec">
+						<img class="img-fluid" src="./img/home/logos-clientes/meta.jpg" alt="logo meta">
+						<img class="img-fluid" src="./img/home/logos-clientes/punto.jpg" alt="logo punto">
+						<img class="img-fluid" src="./img/home/logos-clientes/handball.jpg" alt="logo handball">
 					</div>
 
 				</div>
