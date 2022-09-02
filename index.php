@@ -254,7 +254,6 @@
 						<img class="img-fluid" src="./img/home/logos-clientes/istec.jpg" alt="logo istec">
 						<img class="img-fluid" src="./img/home/logos-clientes/ministerio-desarrollo.jpg" alt="logo ministerio-desarrollo">
 						<img class="img-fluid" src="./img/home/logos-clientes/ospatrones.jpg" alt="logo ospatrones">
-						<img class="img-fluid" src="./img/home/logos-clientes/cirec.jpg" alt="logo cirec">
 						<img class="img-fluid" src="./img/home/logos-clientes/meta.jpg" alt="logo meta">
 						<img class="img-fluid" src="./img/home/logos-clientes/punto.jpg" alt="logo punto">
 						<img class="img-fluid" src="./img/home/logos-clientes/handball.jpg" alt="logo handball">
