@@ -28,6 +28,8 @@
 	<link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
+	<link rel="stylesheet" type="text/css" href="./node_modules/slick-slider/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./node_modules/slick-slider/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
@@ -239,27 +241,25 @@
 
 		<!-- Clientes -->
 		<section data-aos="fade-up" class="container-fluid clientes">
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-md-12 content_logos">
-						<img class="img-fluid" src="./img/home/logos-clientes/hospital-militar.jpg" alt="logo hospital militar">
-						<img class="img-fluid" src="./img/home/logos-clientes/boca.jpg" alt="logo boca">
-						<img class="img-fluid" src="./img/home/logos-clientes/river.jpg" alt="logo river">
-						<img class="img-fluid" src="./img/home/logos-clientes/uai.jpg" alt="logo uai">
-						<img class="img-fluid" src="./img/home/logos-clientes/cifal.jpg" alt="logo cifal">
-						<img class="img-fluid" src="./img/home/logos-clientes/unitar.jpg" alt="logo unitar">
-						<img class="img-fluid" src="./img/home/logos-clientes/fuerzas-armadas.jpg" alt="logo fuerzas-armadas">
-						<img class="img-fluid" src="./img/home/logos-clientes/municipalidad-suipacha.jpg" alt="logo municipalidad-suipacha">
-						<img class="img-fluid" src="./img/home/logos-clientes/istec.jpg" alt="logo istec">
-						<img class="img-fluid" src="./img/home/logos-clientes/ministerio-desarrollo.jpg" alt="logo ministerio-desarrollo">
-						<img class="img-fluid" src="./img/home/logos-clientes/ospatrones.jpg" alt="logo ospatrones">
-						<img class="img-fluid" src="./img/home/logos-clientes/meta.jpg" alt="logo meta">
-						<img class="img-fluid" src="./img/home/logos-clientes/punto.jpg" alt="logo punto">
-						<img class="img-fluid" src="./img/home/logos-clientes/handball.jpg" alt="logo handball">
-					</div>
-
+			<div class="row">
+				
+				<div class="col-md-12 content_logos">
+					<img src="./img/home/logos-clientes/hospital-militar.jpg" alt="logo hospital militar">
+					<img src="./img/home/logos-clientes/boca.jpg" alt="logo boca">
+					<img src="./img/home/logos-clientes/river.jpg" alt="logo river">
+					<img src="./img/home/logos-clientes/uai.jpg" alt="logo uai">
+					<img src="./img/home/logos-clientes/cifal.jpg" alt="logo cifal">
+					<img src="./img/home/logos-clientes/unitar.jpg" alt="logo unitar">
+					<img src="./img/home/logos-clientes/fuerzas-armadas.jpg" alt="logo fuerzas-armadas">
+					<img src="./img/home/logos-clientes/municipalidad-suipacha.jpg" alt="logo municipalidad-suipacha">
+					<img src="./img/home/logos-clientes/istec.jpg" alt="logo istec">
+					<img src="./img/home/logos-clientes/ministerio-desarrollo.jpg" alt="logo ministerio-desarrollo">
+					<img src="./img/home/logos-clientes/ospatrones.jpg" alt="logo ospatrones">
+					<img src="./img/home/logos-clientes/meta.jpg" alt="logo meta">
+					<img src="./img/home/logos-clientes/punto.jpg" alt="logo punto">
+					<img src="./img/home/logos-clientes/handball.jpg" alt="logo handball">
 				</div>
+
 			</div>
 		</section>
 		<!-- Clientes end -->
@@ -276,6 +276,7 @@
 	<script type="text/javascript" src="./node_modules/aos/dist/aos.js"></script>
 	<script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
 	<script type="text/javascript" src="./node_modules/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src="./node_modules/slick-slider/slick/slick.min.js"></script>
 	<script src="js/vue-instance.js"></script>
 	<script type="text/javascript" src="./js/app.js"></script>
 	<script src="js/formsContact.js"></script>

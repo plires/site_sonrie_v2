@@ -19,7 +19,6 @@ function menuToggle() {
   }
 }
 
-
 // HABILITAR ESTA FUNCION PARA QUE EL HEADER APAREZCA Y DESAPAREZCA EN FUNCION
 // DEL SCROLL HACIA ARRIBA O ABAJO
 var start = true;
@@ -44,3 +43,70 @@ function hidelHeader() {
 }
 
 AOS.init();
+
+var url = window.location.pathname;
+var filename = url.substring(url.lastIndexOf('/')+1);
+
+if ( filename === '') { // Seccion Home
+
+  $('.content_logos').slick({
+      dots: false,
+      autoplay: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 8,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1600,
+          settings: {
+            dots: false,
+            slidesToShow: 7
+          }
+        },
+        {
+          breakpoint: 1400,
+          settings: {
+            dots: false,
+            slidesToShow: 6
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            dots: false,
+            slidesToShow: 5
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            dots: false,
+            slidesToShow: 4
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            dots: false,
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            dots: false,
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            dots: false,
+            slidesToShow: 2,
+          }
+        }
+      ]
+    });
+
+}

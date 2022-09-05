@@ -195,14 +195,11 @@
 }
 
 .home .clientes .content_logos {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	gap: 15px 30px;
+	text-align: center;
 }
 
 .home .clientes .content_logos img {
-	width: 100px;
+	width: 150px!important;
 }
 /* Clientes end */
 
@@ -281,12 +278,6 @@
 	}
 	/* Ayuda y Doná end */
 
-	/* Clientes */
-	.home .clientes .content_logos {
-		gap: 15px 50px;
-	}
-	/* Clientes end */
-
 	/* Contacto */
 	.home .contacto {
 		padding-top: 60px;
@@ -330,12 +321,6 @@
 		margin-bottom: 0;
 	}
 	/* Tecnologías Para un Mundo Mejor end */
-
-	/* Clientes */
-	.home .clientes .content_logos {
-		gap: 15px 110px;
-	}
-	/* Clientes end */
 
 }
 
@@ -515,16 +500,6 @@
 	}
 	/* Tecnologías Para un Mundo Mejor end */
 
-	/* Clientes */
-	.home .clientes .content_logos {
-		gap: 15px 115px;
-	}
-
-	.home .clientes .content_logos img {
-		width: 150px;
-	}
-	/* Clientes end */
-
 }
 
 @media (min-width: 1200px) {
@@ -592,12 +567,6 @@
 		min-height: 680px;
 	}
 	/* Ayuda y Doná end */
-
-	/* Clientes */
-	.home .clientes .content_logos {
-		gap: 15px 75px;
-	}
-	/* Clientes end */
 
 }
 
@@ -698,11 +667,5 @@
 		width: 700px;
 	}
 	/* Slide Home end */
-
-	/* Clientes */
-	.home .clientes .content_logos {
-		gap: 15px 90px;
-	}
-	/* Clientes end */
 
 }

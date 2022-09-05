@@ -16,6 +16,7 @@
     "jquery": "^3.6.0",
     "jquery-easing": "^0.0.1",
     "normalize.css": "^8.0.1",
+    "slick-slider": "^1.8.2",
     "vue": "^2.6.14"
   }
 }
