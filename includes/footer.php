@@ -20,9 +20,9 @@
       </div>
 
       <div class="col-lg-4 data">
-        <a class="transition" rel="noopener" target="_blank" href="mailto:info@fundacionsonrielavida.org">
+        <a class="transition" rel="noopener" target="_blank" href="mailto:info@sonrielavida.org">
           <i class="transition fa-regular fa-envelope"></i>
-          info@fundacionsonrielavida.org
+          info@sonrielavida.org
         </a><br>
         <a class="transition" rel="noopener" target="_blank" href="#">
           <i class="transition fa-solid fa-location-dot"></i>
