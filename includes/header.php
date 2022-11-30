@@ -23,6 +23,11 @@
 						<a class="transition" href="./investigacion.php">Investigación</a>
 					</li>
 
+					<?php $res = $current == 'campañas' ? 'active' : ''; ?>
+					<li class="<?= $res ?>">
+						<a class="transition" href="./campaign-fiel-companero.php">Campañas</a>
+					</li>
+
 					<?php $res = $current == 'contacto' ? 'active' : ''; ?>
 					<li class="<?= $res ?>">
 						<a class="transition" href="./contacto.php">Contacto</a>

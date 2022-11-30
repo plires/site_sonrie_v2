@@ -1,0 +1,142 @@
+/* Campaña Fiel Compañero */
+.campaign_fiel_compa {
+	padding-bottom: 60px;
+	background: var(--back-light-color);
+}
+
+.campaign_fiel_compa h1 {
+	  text-stroke-width: 1px;
+	  text-stroke-color: #53c3b1;
+	  -webkit-text-stroke-width: 1px;
+	  -webkit-text-stroke-color: #53c3b1;
+	  text-align: center;
+	  font-size: 2.25rem;
+	  color: transparent;
+	  font-weight: 700;
+	  padding-top: 60px;
+	  margin-bottom: 30px;
+}
+
+.campaign_fiel_compa .content_img {
+	  text-align: center;
+	  margin-bottom: 30px;
+}
+
+.campaign_fiel_compa .big_boy {
+	  max-width: 70%;
+}
+
+.campaign_fiel_compa .content_frase p span {
+	  font-weight: 700;
+}
+
+.campaign_fiel_compa .content_logos {
+	  margin-bottom: 60px;
+	  margin-top: 30px;
+	  display: flex;
+	  justify-content: space-around;
+	  align-items: center;
+}
+/* Campaña Fiel Compañero end */
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 576px) {
+
+	/* Campaña Fiel Compañero */
+	.campaign_fiel_compa h1 {
+		  font-size: 3.5rem;
+	}
+	/* Campaña Fiel Compañero */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Campaña Fiel Compañero */
+	.campaign_fiel_compa h1 {
+		  text-align: left;
+	}
+
+	.campaign_fiel_compa .big_boy {
+		  max-width: 100%;
+	}
+	/* Campaña Fiel Compañero end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Campaña Fiel Compañero */
+	.campaign_fiel_compa h1 {
+	  font-size: 4.5rem;
+	  font-weight: 700;
+	  padding-top: 100px;
+	  margin-bottom: 60px;
+	}
+	/* Campaña Fiel Compañero end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Campaña Fiel Compañero */
+	.campaign_fiel_compa h1 {
+	  font-size: 5rem;
+	}
+
+	.campaign_fiel_compa .content_img {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+	}
+
+	.campaign_fiel_compa .campaign {
+		margin-bottom: 60px;
+	}
+
+	.campaign_fiel_compa .content_data {
+	  display: flex;
+	  flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.campaign_fiel_compa .content_logos {
+		width: 100%;
+	}
+	
+	/* Campaña Fiel Compañero end */
+
+}
+
+@media (min-width: 1300px) {
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Campaña Fiel Compañero */
+	.campaign_fiel_compa h1 {
+	  font-size: 5.5rem;
+	}
+	/* Campaña Fiel Compañero */
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Campaña Fiel Compañero */
+	.campaign_fiel_compa h1 {
+		margin-bottom: 80px;
+	}
+	/* Campaña Fiel Compañero */
+
+}
