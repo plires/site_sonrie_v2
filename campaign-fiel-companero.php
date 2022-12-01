@@ -4,6 +4,7 @@
   include_once('./includes/soporte.php');
 
   $current = 'campañas';
+  $campaign = 'fiel_compañero';
 
   //Variables Get
   include_once('./includes/get-variable-handling.php');
