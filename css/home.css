@@ -52,6 +52,7 @@
 
 .home .slide_home .carousel-indicators {
 	bottom: -55px;
+	z-index: 1;
 }
 
 .home .slide_home .carousel-indicators [data-bs-target] {
