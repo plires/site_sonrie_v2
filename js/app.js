@@ -1,9 +1,23 @@
 const header = document.getElementsByTagName("header")[0]
 const toggle = document.getElementById('toggleIcon')
 const nav = document.getElementsByTagName('nav')[0]
+const btnMenuCampaigns = document.getElementById('btn_menu_campaigns')
+const btnCloseMenuCampaigns = document.getElementById('close_campaign')
+const contentCampaigns = document.getElementById('content_campaigns')
+const arrowCampaing = document.getElementById('arrow_campaign')
 
 toggle.addEventListener('click', function(){
   menuToggle()
+});
+
+btnMenuCampaigns.addEventListener('click', function(){
+  contentCampaigns.classList.toggle('open')
+  arrowCampaing.classList.toggle('rotate')
+});
+
+btnCloseMenuCampaigns.addEventListener('click', function(){
+  contentCampaigns.classList.toggle('open')
+  arrowCampaing.classList.toggle('rotate')
 });
 
 function menuToggle() {

@@ -23,9 +23,15 @@
 						<a class="transition" href="./investigacion.php">Investigación</a>
 					</li>
 
-					<?php $res = $current == 'campañas' ? 'active' : ''; ?>
-					<li class="<?= $res ?>">
-						<a class="transition" href="./campaign-fiel-companero.php">Campañas</a>
+					<li id="campaign">
+						<span id="btn_menu_campaigns" class="<?=($current === 'campañas') ? 'active' : ''?> transition">Campañas<i id="arrow_campaign" class="fa-solid fa-angle-down"></i></span>
+						<ul id="content_campaigns">
+							<i id="close_campaign" class="fas transition fa-times"></i>
+							<li>
+								<?php $res_campaign = isset($campaign) == 'fiel_compañero' ? 'open' : ''; ?>
+								<a class="<?= $res_campaign; ?> transition" href="./campaign-fiel-companero.php">Fiel Compañero</a>
+							</li>
+						</ul>
 					</li>
 
 					<?php $res = $current == 'contacto' ? 'active' : ''; ?>
