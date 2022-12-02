@@ -6,9 +6,6 @@
   $current = 'campañas';
   $campaign = 'fiel_compañero';
 
-  //Variables Get
-  include_once('./includes/get-variable-handling.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -99,15 +96,8 @@
 	<!-- Footer -->
 	<?php include_once('./includes/footer.php'); ?>
 
-	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="https://www.google.com/recaptcha/api.js?render=<?= RECAPTCHA_KEY_SITE ?>"></script>
-	<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./node_modules/aos/dist/aos.js"></script>
-	<script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
-	<script type="text/javascript" src="./node_modules/axios/dist/axios.min.js"></script>
-	<script src="js/vue-instance.js"></script>
 	<script type="text/javascript" src="./js/app.js"></script>
-	<script src="js/formsContact.js"></script>
 
 </body>
 
