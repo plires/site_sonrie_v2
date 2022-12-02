@@ -30,6 +30,11 @@
 	  font-weight: 700;
 }
 
+.campaign_fiel_compa .content_frase .btn-primary {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
 .campaign_fiel_compa .content_logos {
 	  margin-bottom: 60px;
 	  margin-top: 30px;

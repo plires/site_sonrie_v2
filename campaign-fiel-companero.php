@@ -74,8 +74,11 @@
 								Con lo recaudado le regalaremos un Fiel Compañero a los chicos del Hospital Gutierrez.
 							</p>
 							<p data-aos="fade-up">
-								¿Querés colaborar con la campaña? Hacé click en el botón de abajo y regala sonrisas. 
+								¿Querés colaborar con la campaña? Hacé click en el botón de abajo.
 							</p>
+							<div class="text-center">
+								<a href="ventas-campaign-fiel-companero.php" class="btn btn-primary">Regalá Sonrisas</a>
+							</div>
 						</div>
 
 						<div class="content_logos">
@@ -89,17 +92,6 @@
 			</div>
 		</section>
 		<!-- Contenido Campaña end -->
-
-		<!-- Ayuda y Doná -->
-		<section class="container-fluid ayuda_dona campaigns_donation">
-			<div class="container">
-	  		<div class="row">
-		  		<!-- Modulo Donación -->
-					<?php include_once('./includes/donation-module.php'); ?>
-		  	</div>
-			</div>
-		</section>
-		<!-- Ayuda y Doná end -->
 
 	</section>
 	<!-- Campaña Fiel Compañero end -->
