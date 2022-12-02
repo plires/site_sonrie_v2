@@ -35,9 +35,6 @@
 	<!-- Campaña Fiel Compañero -->
 	<section id="app" class="campaign_fiel_compa">
 
-		<!-- Modal Confirmation -->
-		<?php include('./includes/modal-confirmation-donation.php'); ?>
-
 		<!-- Header -->
 		<?php include_once('./includes/header.php'); ?>
 
