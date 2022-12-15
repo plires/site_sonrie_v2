@@ -91,7 +91,7 @@ use PHPMailer\PHPMailer\Exception;
         $item = new MercadoPago\Item;
         $item->id = $product->id;
         $item->title = $product->sku;
-        $item->description = $product->description;
+        // $item->description = $product->description;
         $item->category_id = $product->category;
         $item->quantity = 1;
         $item->picture_url = BASE . 'img/campaigns/fiel-companero/' .  strtolower($product->category) . '/' .  $product->image;
