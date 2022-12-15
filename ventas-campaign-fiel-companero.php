@@ -71,21 +71,21 @@
 					</p>
 
 					<p data-aos="fade-up">
-						Buscamos una forma distinta de recaudar fondos para la campaña y nos propusimos difundir y vender NFT donde lo recaudado se destinará  a la producción de los muñecos junto a un kit de regalo. 
+						Buscamos una forma distinta de recaudar fondos para la campaña y nos propusimos difundir y vender obras de arte físicas y digitales  donde lo recaudado se destinará a la producción de los muñecos junto a un kit de regalo.
 					</p>
 
 					<p data-aos="fade-up">
-						Con la colaboración y compromiso de 10 artistas argentinos que se sumaron creando cuadros de Big Boys y Fyre Community Studio que nos donó NFTs, logramos crear una colección de más de 100 piezas únicas. 
+						Con la colaboración y compromiso de 10 artistas argentinos que se sumaron creando cuadros de Big Boys y Fyre Community Studio que nos donó NFTs, logramos crear una colección de más de 100 piezas únicas.
 					</p>
 
 					<p data-aos="fade-up">
-						Sabemos que no todos tenemos acceso a plataformas como open sea o una billetera virtual, por eso creamos una plataforma única y personalizada para esta campaña, así todos pueden ayudar y acceder a la compra de los NFT pagando a través de Mercado Pago. 
+						Sabemos que no todos tenemos acceso a plataformas como Open Sea o una billetera virtual, por eso creamos una plataforma única y personalizada para esta campaña, así todos pueden ayudar y acceder a la compra de los NFT pagando a través de Mercado Pago.
 					</p>
 
 					<p data-aos="fade-up">
 						Para poder vender los NFT y darles a los chicos unos Reyes Magos diferentes necesitamos de tu ayuda ❤️
 					</p>
-
+					
 					<hr>
 
 					<p data-aos="fade-up">
