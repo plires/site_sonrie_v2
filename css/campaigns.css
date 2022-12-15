@@ -1,3 +1,277 @@
+/* Header */
+.venta_campaign_fiel_compa {
+	position: relative;
+}
+
+.venta_campaign_fiel_compa .header_campaña {
+	margin-bottom: 30px;
+}
+/* Header end */
+
+/* Descripton */
+.venta_campaign_fiel_compa .description {
+	margin-bottom: 30px;
+}
+
+.venta_campaign_fiel_compa h1 {
+	text-align: center;
+	color: var(--primary-color);
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+.venta_campaign_fiel_compa .description p {
+	color: var(--secondary-color);
+}
+
+.venta_campaign_fiel_compa .description a {
+	color: var(--primary-color);
+}
+
+.venta_campaign_fiel_compa .description p:last-child {
+	margin-bottom: 0;
+}
+
+.venta_campaign_fiel_compa .filtros {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.venta_campaign_fiel_compa .filtros .content_buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.venta_campaign_fiel_compa .filtros .content_buttons .btn-primary {
+	min-width: 130px;
+	background: white!important;
+	border-color: #ef802d!important;
+	color: #ef802d!important;
+}
+
+.venta_campaign_fiel_compa .filtros .content_buttons .btn-primary.active {
+	background: #ef802d!important;
+	color: white!important;
+}
+
+.venta_campaign_fiel_compa .filtros .content_buttons .btn-primary:hover {
+	background: #ef802d!important;
+	color: white!important;
+}
+
+.payment_campaign_fiel {
+	background: none;
+}
+
+.payment_campaign_fiel .link:hover {
+	color: var(--secondary-color);
+}
+
+.payment_campaign_fiel p,
+.payment_campaign_fiel h1,
+.payment_campaign_fiel h2 {
+	color: grey!important;
+}
+
+.payment_campaign_fiel h1 {
+	font-size: 2rem;
+}
+
+.payment_campaign_fiel h2 {
+	font-size: 1.5rem;
+}
+
+.payment_campaign_fiel .content_image_header {
+	align-items: center!important;
+}
+
+.venta_campaign_fiel_compa #loading {
+	display: none;
+}
+
+.venta_campaign_fiel_compa #loading.show_spinner {
+	display: inline-block;
+	position: fixed;
+	left: calc(50% - 30px);
+	top: calc(50% - 30px);
+	z-index: 99;
+}
+/* Descripton end */
+
+/* Productos */
+
+.venta_campaign_fiel_compa .productos .col-md-4 {
+	margin-bottom: 30px;
+}
+
+.venta_campaign_fiel_compa .productos .row:first-child {
+	margin-bottom: 15px;
+}
+
+.venta_campaign_fiel_compa .productos h2 {
+	color: var(--primary-color);
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.venta_campaign_fiel_compa .productos .content_product {
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.venta_campaign_fiel_compa .productos .content_product .img_product_list {
+	cursor: pointer;
+}
+
+.venta_campaign_fiel_compa .productos .content_product .sold {
+	position: absolute;
+	background: rgb(76, 195, 137, 0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.venta_campaign_fiel_compa .productos .value_product {
+	color: var(--secondary-color);
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.venta_campaign_fiel_compa .productos .btn-primary {
+	font-size: 0.85rem;
+	font-weight: 300;
+}
+
+.venta_campaign_fiel_compa .productos .btn-primary:hover {
+	background: white!important;
+	color: var(--primary-color)!important;
+	border-color: var(--primary-color)!important;
+}
+/* Productos end */
+
+/* Modal Producto */
+.venta_campaign_fiel_compa #modalProducts .alert-danger {
+	font-size: 0.85rem;
+}
+
+.venta_campaign_fiel_compa #modalProducts .alert-dismissible { 
+  background: var(--primary-color);
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+.venta_campaign_fiel_compa #modalProducts .content { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+}
+
+.venta_campaign_fiel_compa #modalProducts .content .close { 
+	background: transparent;
+	font-size: 1.25rem;
+	color: white;
+	border: none;
+}
+
+.venta_campaign_fiel_compa #modalProducts ul li { 
+	margin-bottom: 5px;
+}
+
+.venta_campaign_fiel_compa #modalProducts ul li:last-child { 
+	margin-bottom: 0;
+}
+
+/*.venta_campaign_fiel_compa #modalProducts .img_product {
+	max-width: 150px;
+}*/
+
+.venta_campaign_fiel_compa #modalProducts .modal-header {
+	background: var(--primary-color);
+}
+
+.venta_campaign_fiel_compa #modalProducts .modal-header p {
+	color: white;
+}
+
+.venta_campaign_fiel_compa #modalProducts .btn-close {
+	background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+
+.venta_campaign_fiel_compa #modalProducts p {
+	margin-bottom: 0;
+}
+
+.venta_campaign_fiel_compa #modalProducts .name {
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+.venta_campaign_fiel_compa #modalProducts .description {
+	font-size: 0.85rem;
+	margin-bottom: 10px;
+}
+
+.venta_campaign_fiel_compa #modalProducts .value {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin: 10px auto;
+	color: var(--primary-color);
+}
+
+.venta_campaign_fiel_compa #modalProducts .form-check {
+	font-size: 0.75rem;
+	color: #ee8035;
+	display: flex;
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 10px;
+	cursor: pointer!important;
+}
+
+.venta_campaign_fiel_compa #modalProducts label {
+	cursor: pointer!important;
+}
+
+.venta_campaign_fiel_compa #modalProducts .form-check-input[type="checkbox"] {
+	margin-right: 5px;
+	width: 45px;
+}
+
+.venta_campaign_fiel_compa #modalProducts .form-control {
+	color: grey;
+	margin-bottom: 15px;
+}
+
+.venta_campaign_fiel_compa .form-control::placeholder { 
+  color: grey;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.venta_campaign_fiel_compa #modalProducts #inputValueProduct { 
+  background: var(--primary-color);
+  color: white;
+}
+
+.venta_campaign_fiel_compa #modalProducts #inputValueProduct::placeholder { 
+  color: white!important;
+}
+
+.venta_campaign_fiel_compa #modalProducts .btn-primary:hover { 
+  background: white!important;
+  border-color: var(--primary-color)!important;
+  color: var(--primary-color)!important;
+}
+/* Modal Producto end */
+
 /* Campaña Fiel Compañero */
 .campaign_fiel_compa {
 	padding-bottom: 60px;
@@ -42,6 +316,10 @@
 	  justify-content: space-around;
 	  align-items: center;
 }
+
+.campaign_fiel_compa .content_logos .featured {
+	width: 70px!important;
+}
 /* Campaña Fiel Compañero end */
 
 
@@ -53,6 +331,12 @@
 }
 
 @media (min-width: 576px) {
+
+	/* Header */
+	.venta_campaign_fiel_compa .img_header {
+		content: url('../img/campaigns/fiel-companero/header-fiel-companero.jpg');
+	}
+	/* Header end */
 
 	/* Campaña Fiel Compañero */
 	.campaign_fiel_compa h1 {
@@ -117,7 +401,6 @@
 	.campaign_fiel_compa .content_logos {
 		width: 100%;
 	}
-	
 	/* Campaña Fiel Compañero end */
 
 }

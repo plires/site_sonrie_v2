@@ -2,6 +2,7 @@
 
 require_once("repositorio.php");
 require_once("repoContactsSQL.php");
+require_once("repoProductsSQL.php");
 
 class RepositorioSQL extends Repositorio {
 
@@ -19,6 +20,7 @@ class RepositorioSQL extends Repositorio {
     }
 
     $this->repoContacts = new RepoContactsSQL($this->conexion);
+    $this->repoProducts = new RepoProductsSQL($this->conexion);
 
   }
 }

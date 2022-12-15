@@ -393,6 +393,36 @@ header .col-md-12 {
 .payment .parrafo_payment {
 	color: white;
 }
+
+/* Payment Success */
+.payment_success .parrafo_payment_success {
+	margin-bottom: 0!important;
+}
+
+.payment_success .hr_payment_success {
+	border-top: 1px solid white!important;
+}
+
+.payment_success .content_data {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.payment_success .content_data .data {
+	order: 1;
+}
+
+.payment_success .content_data .image {
+	order: 0;
+}
+
+.payment_success .content_data .image img {
+	width: 350px;
+	margin-bottom: 30px;
+}
+/* Payment Success end */
 /* Payment end */
 
 /* Ayuda y Doná */
@@ -653,6 +683,23 @@ footer .data a:last-child {
 	.payment_content h1 {
 		text-align: left;
 	}
+
+	/* Payment Success */
+	.payment_success .content_data {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.payment_success .content_data .data {
+		padding-left: 15px;
+	}
+
+	.payment_success .content_data .image img {
+		width: 230px;
+		margin-bottom: 0;
+	}
+	/* Payment Success end */
+
 	/* Payment end */
 
 }

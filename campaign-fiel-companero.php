@@ -53,22 +53,21 @@
 					<div data-aos="fade-up" class="col-md-6 content_data">
 
 						<div class="content_frase">
+
 							<p data-aos="fade-up">
-								<span>
-									Para estos Reyes Magos queremos llevar sonrisas a los chicos que se encuentran en Cuidados Paliativos del Hospital de Niños Gutiérrez con una sorpresa inolvidable!
-								</span>
+								<span>Para estos Reyes Magos queremos regalarle sonrisas a los chicos que se encuentran en Cuidados Paliativos del Hospital General de Niños R. Gutiérrez dándoles un muñeco Big Boy personalizado!</span>
 							</p>
+
 							<p data-aos="fade-up">
-								Vamos a repartir muñecos Big Boys personalizados a cada uno de los niños del ala, compartiendo sonrisas y un día lleno de diversión.
+								Buscamos una forma distinta de recaudar fondos para la campaña y nos propusimos difundir y vender NFT donde lo recaudado se destinará  a la producción de los muñecos junto a un kit de regalo. 
 							</p>
+
 							<p data-aos="fade-up">
-								Organizamos una subasta de Big Boys NFT únicos, diseñados e intervenidos por 10  artistas Argentinos y gracias al aporte de Fyre Community Studio sumamos más piezas para hacer de esta campaña algo inolvidable.
+								Con la colaboración y compromiso de 10 artistas argentinos que se sumaron creando cuadros de Big Boys y Fyre Community Studio que nos donó NFTs, logramos crear una colección de más de 100 piezas únicas. 
 							</p>
+
 							<p data-aos="fade-up">
-								Con lo recaudado le regalaremos un Fiel Compañero a los chicos del Hospital Gutierrez.
-							</p>
-							<p data-aos="fade-up">
-								¿Querés colaborar con la campaña? Hacé click en el botón de abajo.
+								<strong>¿Querés colaborar con la campaña? Hacé click en el siguiente botón.</strong>
 							</p>
 							<div class="text-center">
 								<a href="ventas-campaign-fiel-companero.php" class="btn btn-primary">Regalá Sonrisas</a>
@@ -76,8 +75,8 @@
 						</div>
 
 						<div class="content_logos">
-							<img class="img-fluid" src="./img/campaigns/fiel-companero/hospital-gutierrez-sm.png" alt="logo hospital gutierrez">
 							<img class="img-fluid" src="./img/campaigns/fiel-companero/fire-community.png" alt="logo fire community">
+							<img class="img-fluid featured" src="./img/campaigns/fiel-companero/hospital-gutierrez-sm.png" alt="logo hospital gutierrez">
 							<img class="img-fluid" src="./img/campaigns/fiel-companero/logo-3-sm.png" alt="logo 3">
 						</div>
 
