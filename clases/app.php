@@ -214,24 +214,28 @@ use PHPMailer\PHPMailer\Exception;
     public function setVariablesToEmail($post, $to, $product = NULL, $payments = NULL)
     {
 
-      if ( count($payments) > 1 ) { // si se abono con dos medios de pago
+      if ($product && $payments) {
         
-        foreach ($payments as $key => $payment) {
-          $payment_id[$key] = $payment->id;
-          $payment_status[$key] = $payment->status;
-          $payment_type_id[$key] = $payment->payment_type_id;
-          $payment_transaction_amount[$key] = $payment->transaction_amount;
-        }
+        if ( count($payments) > 1 ) { // si se abono con dos medios de pago
+        
+          foreach ($payments as $key => $payment) {
+            $payment_id[$key] = $payment->id;
+            $payment_status[$key] = $payment->status;
+            $payment_type_id[$key] = $payment->payment_type_id;
+            $payment_transaction_amount[$key] = $payment->transaction_amount;
+          }
 
-      } else { // Si se abono con un medio de pago
-        $payment_id[0] = $payments[0]->id;
-        $payment_status[0] = $payments[0]->status;
-        $payment_type_id[0] = $payments[0]->payment_type_id;
-        $payment_transaction_amount[0] = $payments[0]->transaction_amount;
-        $payment_id[1] = '-';
-        $payment_status[1] = '-';
-        $payment_type_id[1] = '-';
-        $payment_transaction_amount[1] = '-';
+        } else { // Si se abono con un medio de pago
+          $payment_id[0] = $payments[0]->id;
+          $payment_status[0] = $payments[0]->status;
+          $payment_type_id[0] = $payments[0]->payment_type_id;
+          $payment_transaction_amount[0] = $payments[0]->transaction_amount;
+          $payment_id[1] = '-';
+          $payment_status[1] = '-';
+          $payment_type_id[1] = '-';
+          $payment_transaction_amount[1] = '-';
+
+        }
 
       }
 
