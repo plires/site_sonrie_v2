@@ -344,13 +344,17 @@
                   </h2>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; color: #575756; text-align: left; font-weight: 400;">
-                    Gracias por tu aporte a la campaña Fiel Compañero y ayudarnos a regalarle a los chicos de Cuidados Paliativos del Hospital General de Niños R. Gutiérrez unos reyes magos inolvidables! 
+                    ¡Gracias por tu aporte a la campaña Fiel Compañero y ayudarnos a regalarle a los chicos de Cuidados Paliativos del Hospital General de Niños R. Gutiérrez unos reyes magos inolvidables!
                   </p>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; color: #575756; text-align: left; font-weight: 400;">
-                    Para solicitar la transferencia de titularidad de tu NFT o retirar tu cuadro escribinos a info@sonrielavida.org!
+                    ¡Para solicitar la transferencia de titularidad de tu NFT o retirar tu cuadro escribinos a info@sonrielavida.org!
                   </p>
-                  
+
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; color: #575756; text-align: left; font-weight: 400;">
+                    También podés <a class="link transition" href="tel:1124682923">llamarnos al 11 2468 2923</a>
+                  </p>
+
                   <br>
                   <br>
 
