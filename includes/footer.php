@@ -4,7 +4,7 @@
     <div class="row">
 
       <div class="logo_footer col-lg-4">
-        <img class="img-fluid" src="./img/footer/logo-footer.png" alt="logo sonrie la vida footer">
+        <img class="img-fluid" src="<?= BASE . 'img/footer/logo-footer.png' ?>" alt="logo sonrie la vida footer">
       </div>
 
       <div class="col-lg-4 rrss">
