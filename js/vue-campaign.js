@@ -197,7 +197,7 @@ let app = new Vue({
     async getProducts() {
 
       this.loading()
-      await axios.get('php/campaigns/get-products.php')
+      await axios.get('/new_site/php/campaigns/get-products.php')
       .then(response => {
 
         this.products = response.data

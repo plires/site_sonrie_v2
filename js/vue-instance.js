@@ -59,7 +59,7 @@ let app = new Vue({
         formData.append('value', value)
 
         // this.loading()
-        axios.post('/php/donation-mercadopago.php', formData)
+        axios.post('/new_site/php/donation-mercadopago.php', formData)
         .then(response => {
 
           if (response.data) {
