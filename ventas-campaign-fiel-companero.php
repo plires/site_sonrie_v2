@@ -55,7 +55,7 @@
 		<section id="first_section" class="container-fluid header_campaña">
 			<div class="row">
 				<div class="col-md-12 p-0">
-					<img class="img-fluid img_header" src="./img/campaigns/fiel-companero/header-mobile.jpg" alt="header fiel compañero">
+					<img class="img-fluid img_header" src="./img/campaigns/fiel-companero/header-mobile-mod.jpg" alt="header fiel compañero">
 				</div>
 			</div>
 		</section>
@@ -67,11 +67,11 @@
 				<div class="col-md-10 offset-md-1 text-center">
 					<h1>Regalando Sonrisas</h1>
 					<p data-aos="fade-up">
-						<span>Para estos Reyes Magos queremos regalarle sonrisas a los chicos que se encuentran en Cuidados Paliativos del Hospital General de Niños R. Gutiérrez dándoles un muñeco Big Boy personalizado!</span>
+						<strong>Para estos Reyes Magos queremos regalarle sonrisas a los chicos que se encuentran internados en el Hospital General de Niños R. Gutiérrez dándoles un muñeco Big Boy personalizado!</strong>
 					</p>
 
 					<p data-aos="fade-up">
-						Buscamos una forma distinta de recaudar fondos para la campaña y nos propusimos difundir y vender obras de arte físicas y digitales  donde lo recaudado se destinará a la producción de los muñecos junto a un kit de regalo.
+						Buscamos una forma distinta de recaudar fondos para la campaña y nos propusimos difundir y vender obras de arte físicas y digitales donde lo recaudado se destinará a la producción de los muñecos junto a un kit de regalo.
 					</p>
 
 					<p data-aos="fade-up">
@@ -84,6 +84,10 @@
 
 					<p data-aos="fade-up">
 						Para poder vender los NFT y darles a los chicos unos Reyes Magos diferentes necesitamos de tu ayuda ❤️
+					</p>
+
+					<p data-aos="fade-up">
+						Junto a la Cooperadora del Hospital General de Niños R. Gutiérrez queremos contagiar sonrisas y regalarle unos Reyes Magos diferentes a los chicos!
 					</p>
 					
 					<hr>
