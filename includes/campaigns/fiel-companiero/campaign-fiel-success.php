@@ -32,6 +32,14 @@
     $user['dni_type'] = $preference->payer->identification->type;
     $user['dni_number'] = $preference->payer->identification->number;
 
+    session_start();
+    if ( isset($_SESSION['cuit']) ) {
+      $user['cuit'] = $_SESSION['cuit'];
+    } else {
+      $user['cuit'] = 'Consultar via mail';
+    }
+    unset($_SESSION['cuit']);
+
     $payments_id = explode(",", $_GET['payment_id']);
 
     if ( count($payments_id) > 1 ) { // si se abono con dos medios de pago
@@ -209,7 +217,8 @@ fue la creación del PROGRAMA Rinascere">
                     <strong>NOMBRE:&nbsp;&nbsp;</strong><?= $user['name']; ?><br>
                     <strong>EMAIL:&nbsp;&nbsp;</strong><?= $user['email']; ?><br>
                     <strong>TELÉFONO:&nbsp;&nbsp;</strong><?= $user['phone']; ?><br>
-                    <strong>DOCUMENTO:&nbsp;&nbsp;</strong><?= $user['dni_type'] .': '. $user['dni_number'] ; ?>
+                    <strong>DOCUMENTO:&nbsp;&nbsp;</strong><?= $user['dni_type'] .': '. $user['dni_number'] ; ?><br>
+                    <strong>CUIT:&nbsp;&nbsp;</strong><?= $user['cuit'] ; ?>
                   </p>
 
                   <?php foreach ($payments as $key => $payment): ?>

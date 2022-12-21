@@ -16,7 +16,7 @@
 
       try {
 
-        $sql = "INSERT INTO sales values(default, :user_name, :user_email, :user_phone, :user_dni_type, :user_dni_number, :product_id, :collection_id, :status, :category, :payment_type, :transaction_amount, :created_at)";
+        $sql = "INSERT INTO sales values(default, :user_name, :user_email, :user_phone, :user_dni_type, :user_dni_number, :user_cuit, :product_id, :collection_id, :status, :category, :payment_type, :transaction_amount, :created_at)";
 
         $stmt = $this->conexion->prepare($sql);
         
@@ -25,6 +25,7 @@
         $stmt->bindValue(":user_phone", $user['phone'], PDO::PARAM_STR);
         $stmt->bindValue(":user_dni_type", $user['dni_type'], PDO::PARAM_STR);
         $stmt->bindValue(":user_dni_number", $user['dni_number'], PDO::PARAM_STR);
+        $stmt->bindValue(":user_cuit", $user['cuit'], PDO::PARAM_STR);
         $stmt->bindValue(":product_id", $product['id'], PDO::PARAM_STR);
         $stmt->bindValue(":collection_id", $payment->id, PDO::PARAM_STR);
         $stmt->bindValue(":status", $payment->status, PDO::PARAM_STR);

@@ -85,6 +85,13 @@
             type="number" 
             placeholder="Tu DNI...">
 
+          <input 
+            id="inputCUIT" 
+            class="form-control form-control-sm" 
+            type="tel" 
+            maxlength="11"
+            placeholder="Tu CUIT sin guiones, espacios o puntos.">
+
           <button @click="sendDonationToMP(otherValue, currentProduct.id)" class="btn btn-primary">Comprar</button>
         </div>
       </div>

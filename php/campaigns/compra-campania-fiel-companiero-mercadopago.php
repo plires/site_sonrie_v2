@@ -26,6 +26,8 @@
     emptyInput($user->email) ||
     emptyInput($user->phone) ||
     emptyInput($user->dni) ||
+    emptyInput($user->cuit) || 
+    strlen($user->cuit) != 11 ||
     emptyInput($_POST['value']) ||
     !is_numeric($_POST['value'])
     )

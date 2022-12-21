@@ -32,6 +32,7 @@ let app = new Vue({
       this.user.email = $('#inputEmail').val()
       this.user.phone = $('#inputPhone').val()
       this.user.dni = $('#inputDNI').val()
+      this.user.cuit = $('#inputCUIT').val()
     },
 
     validateEmail(email) {
@@ -52,7 +53,9 @@ let app = new Vue({
           this.user.email != '' && 
           this.validateEmail(this.user.email) &&
           this.user.phone != '' && 
-          this.user.dni != '' 
+          this.user.dni != '' && 
+          this.user.cuit != '' && 
+          this.user.cuit.length == 11 
         ) {
         return true
       } 
@@ -79,6 +82,14 @@ let app = new Vue({
 
       if ( this.user.dni == '' ) {
         this.errors.push('ingresá tu DNI')
+      }
+
+      if ( this.user.cuit == '' ) {
+        this.errors.push('ingresá tu CUIT sin guiones ni puntos.')
+      }
+
+      if ( this.user.cuit.length != 11 ) {
+        this.errors.push('ingresá los primeros 11 dígitos de tu CUIT')
       }
       
       return false

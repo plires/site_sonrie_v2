@@ -68,6 +68,9 @@ use PHPMailer\PHPMailer\Exception;
 
       try {
 
+        session_start();
+        $_SESSION['cuit'] = $user->cuit;
+
         // Agrega credenciales
         MercadoPago\SDK::setAccessToken(ACCESS_TOKEN);
         
