@@ -20,6 +20,33 @@
 	font-weight: 700;
 }
 
+.venta_campaign_fiel_compa .subtitle {
+	margin-top: 30px;
+	text-align: center;
+	color: var(--primary-color);
+	margin-bottom: 20px;
+	font-weight: 700;
+	animation: animate_btn 2s infinite;
+}
+
+.venta_campaign_fiel_compa .subtitle i {
+	margin-left: 15px;
+}
+
+@keyframes animate_btn {
+  0% {
+    color: var(--secondary-color);
+  }
+
+  50% {
+    color: var(--primary-color);
+  }
+
+  100% {
+    color: var(--secondary-color);
+  }
+}
+
 .venta_campaign_fiel_compa .description p {
 	color: var(--secondary-color);
 }
@@ -48,6 +75,7 @@
 	background: white!important;
 	border-color: #ef802d!important;
 	color: #ef802d!important;
+	font-size: 1.5rem;
 }
 
 .venta_campaign_fiel_compa .filtros .content_buttons .btn-primary.active {

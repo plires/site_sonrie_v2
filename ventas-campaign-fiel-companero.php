@@ -98,6 +98,8 @@
 					
 					<hr>
 
+					<h2 class="transition subtitle">Seleccioná la categoría.<i class="fa-solid fa-arrow-turn-down"></i></h2>
+
 				</div>
 			</div>
 			<div class="row filtros">

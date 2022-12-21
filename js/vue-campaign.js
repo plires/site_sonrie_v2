@@ -5,7 +5,7 @@ let app = new Vue({
     return {
       errors: [],
       minValue: 0,
-      currentCategory: 'Cuadros',
+      currentCategory: '',
       pictures: [],
       nfts: [],
       products: [],
