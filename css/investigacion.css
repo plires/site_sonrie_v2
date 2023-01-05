@@ -218,6 +218,96 @@
 }
 /* Caracteristicas Rinascere end */
 
+/* Testimonios */
+.investigacion .testimonios {
+	background: #bdc3c7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.investigacion .testimonios h2 {
+  color: var(--secondary-color);
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.investigacion .testimonios label {
+  width: 100%;
+  font-size: 0.85rem;
+  background: white;
+  margin-bottom: 0;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.investigacion .testimonios .slick-slide .pb-video {
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.investigacion .testimonios .slick-slide .pb-video:hover {
+    background: var(--primary-color);
+}
+
+.investigacion .testimonios .slick-slide .pb-video-frame {
+  transition: width 2s, height 2s;
+}
+
+.investigacion .testimonios .slick-slide .pb-row {
+  margin-bottom: 10px;
+}
+
+.investigacion .testimonios #testimoniosModal .modal-header {
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.investigacion .testimonios #testimoniosModal .modal-header h4 {
+	font-size: 1rem;
+	color: var(--primary-color);
+	font-weight: 700;
+	margin-bottom: 3px;
+}
+
+.investigacion .testimonios #testimoniosModal .modal-header h5 {
+	font-size: 0.75rem;
+	color: var(--secondary-color);
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+.investigacion .testimonios #testimoniosModal .modal-header button {
+	position: absolute;
+	right: 20px;
+}
+
+.investigacion .testimonios #testimoniosModal .modal-body {
+	padding-top: 0;
+}
+
+.investigacion .testimonios #testimoniosModal .col-md-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	min-height: 315px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.investigacion .testimonios #testimoniosModal .spinner-border {
+	border-color: var(--primary-color);
+	border-right-color: transparent;
+}
+
+.investigacion .testimonios .slick-arrow {
+  display: none!important;
+}
+/* Testimonios end */
+
 /* Método */
 .investigacion .metodo {
 	background: var(--secondary-color);
@@ -417,6 +507,17 @@
 		top: -22px;
 	}
 	/* Caracteristicas Rinascere end */
+
+	/* Testimonios */
+	.investigacion .testimonios {
+	  padding-top: 60px;
+	  padding-bottom: 60px;
+	}
+
+	.investigacion .testimonios .slick-arrow {
+	  display: inline-block!important;
+	}
+	/* Testimonios end */
 
 	/* Método */
 	.investigacion .metodo {
@@ -749,6 +850,12 @@
 		font-size: 1.1rem;
 	}
 	/* Caracteristicas Rinascere end */
+
+	/* Testimonios */
+	.investigacion .testimonios h2 {
+	  font-size: 2.5rem;
+	}
+	/* Testimonios end */
 
 	/* Método */
 	.investigacion .img_areas {

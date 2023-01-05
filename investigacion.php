@@ -25,6 +25,8 @@
 	<link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
+	<link rel="stylesheet" type="text/css" href="./node_modules/slick-slider/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./node_modules/slick-slider/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
@@ -202,6 +204,108 @@
 			</div>
 		</section>
 		<!-- Caracteristicas Rinascere end -->
+
+		<!-- Testimonios -->
+		<section class="container-fluid pb-video-container testimonios">
+
+			<!-- Modal -->
+			<?php include_once('./includes/modal-testimonios.php'); ?>
+
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-12">
+						<h2 data-aos="fade-up">Testimonios</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 content_logos">
+
+						<div class="pb-video transition">
+							<img 
+								onclick="setValuesModal('Mariana Perez', 'Clinica Médica, Nutrición, Endocrinóloga', 'https://www.youtube.com/embed/IxOIK9ctoFM')" 
+								data-bs-toggle="modal" 
+								data-bs-target="#testimoniosModal" 
+								class="img-fluid" 
+								src="./img/testimonios/testimonio-1.jpg" 
+								alt="testimonio 1">
+	            <label class="transition">Mariana Perez</label>
+	          </div>
+
+	          <div class="pb-video transition">
+							<img 
+								onclick="setValuesModal('Margarita Lopez', 'Paciente', 'https://www.youtube.com/embed/v1yW2u-mP9E')" 
+								data-bs-toggle="modal" 
+								data-bs-target="#testimoniosModal" 
+								class="img-fluid" 
+								src="./img/testimonios/testimonio-2.jpg" 
+								alt="testimonio 2">
+	            <label class="transition">Margarita Lopez</label>
+	          </div>
+
+	          <div class="pb-video transition">
+							<img 
+								onclick="setValuesModal('Julio Barnachea', 'Traumatologo', 'https://www.youtube.com/embed/aSkDYT_gxYE')" 
+								data-bs-toggle="modal" 
+								data-bs-target="#testimoniosModal" 
+								class="img-fluid" 
+								src="./img/testimonios/testimonio-3.jpg" 
+								alt="testimonio 3">
+	            <label class="transition">Julio Barnachea</label>
+	          </div>
+
+	          <div class="pb-video transition">
+							<img 
+								onclick="setValuesModal('Francisco Gambino', 'Ex Director Hospital Militar Central', 'https://www.youtube.com/embed/ETnP8QD_iPE')" 
+								data-bs-toggle="modal" 
+								data-bs-target="#testimoniosModal" 
+								class="img-fluid" 
+								src="./img/testimonios/testimonio-4.jpg" 
+								alt="testimonio 4">
+	            <label class="transition">Francisco Gambino</label>
+	          </div>
+
+	          <div class="pb-video transition">
+							<img 
+								onclick="setValuesModal('Bedig Evaszian', 'Paciente', 'https://www.youtube.com/embed/lVYWeGgJl0k')" 
+								data-bs-toggle="modal" 
+								data-bs-target="#testimoniosModal" 
+								class="img-fluid" 
+								src="./img/testimonios/testimonio-5.jpg" 
+								alt="testimonio 5">
+	            <label class="transition">Bedig Evaszian</label>
+	          </div>
+
+	          <div class="pb-video transition">
+							<img 
+								onclick="setValuesModal('Ariel Sudan', 'Paciente', 'https://www.youtube.com/embed/ePC9nR-KzD8')" 
+								data-bs-toggle="modal" 
+								data-bs-target="#testimoniosModal" 
+								class="img-fluid" 
+								src="./img/testimonios/testimonio-6.jpg" 
+								alt="testimonio 6">
+	            <label class="transition">Ariel Sudan</label>
+	          </div>
+
+	          <div class="pb-video transition">
+							<img 
+								onclick="setValuesModal('Alfredo Bertachini', 'Cardiología, Terapia Intensiva', 'https://www.youtube.com/embed/mw0hGxjo274')" 
+								data-bs-toggle="modal" 
+								data-bs-target="#testimoniosModal" 
+								class="img-fluid" 
+								src="./img/testimonios/testimonio-7.jpg" 
+								alt="testimonio 7">
+	            <label class="transition">Alfredo Bertachini</label>
+	          </div>
+
+					</div>
+				</div>
+				
+			</div>
+
+		</section>
+		<!-- Testimonios -->
 
 		<!-- Método -->
 		<section class="container-fluid metodo">
@@ -463,6 +567,7 @@
 	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./node_modules/aos/dist/aos.js"></script>
+	<script type="text/javascript" src="./node_modules/slick-slider/slick/slick.min.js"></script>
 	<script type="text/javascript" src="./js/app.js"></script>
 
 </body>

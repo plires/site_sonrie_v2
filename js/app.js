@@ -124,3 +124,96 @@ if ( filename === '') { // Seccion Home
     });
 
 }
+
+if ( filename ===  'investigacion.php' ) { // Seccion Investigacion
+
+  const videoModal = document.querySelector('#video_youtube')
+
+  $('.content_logos').slick({
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1600,
+        settings: {
+          dots: false,
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 1400,
+        settings: {
+          dots: false,
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          dots: false,
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          dots: false,
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          dots: false,
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          dots: false,
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          dots: false,
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
+
+  function setValuesModal(author, ocupation, url) {
+    const authorModal = document.querySelector('#title')
+    const ocupationModal = document.querySelector('#ocupation')
+    const spinnerTestimonios = document.querySelector('#spinner_testimonios')
+    const testimoniosModal = document.getElementById('testimoniosModal')
+    const videoModal = document.querySelector('#video_youtube')
+
+    authorModal.innerHTML = author
+    ocupationModal.innerHTML = ocupation
+
+    spinnerTestimonios.style.display = 'inline-block';
+    videoModal.style.display = 'none';
+
+    videoModal.src = url
+    videoModal.onload= function() {
+      videoModal.style.display = 'inline-block';
+      spinnerTestimonios.style.display = 'none';
+    };
+
+  }
+
+  testimoniosModal.addEventListener('hidden.bs.modal', event => {
+    videoModal.src = ''
+  })
+
+}
+
+
