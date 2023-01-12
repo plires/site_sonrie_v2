@@ -1,6 +1,11 @@
 <?php
 	
 	require ('./includes/config.inc.php');
+
+	$url = BASE;
+	// Redirect 301 Moved Permanently - Se redirecciona al HOME por finalizacion de esta camapaña
+	header("Location: $url",TRUE,301);
+
   include_once('./includes/soporte.php');
 
   $current = 'campañas';

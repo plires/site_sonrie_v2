@@ -74,13 +74,6 @@
 								Regalemos sonrisas y unos Reyes Magos diferentes a los chicos!
 							</p>
 
-							<p data-aos="fade-up">
-								<strong>¿Querés colaborar con la campaña? Hacé click en el siguiente botón.</strong>
-							</p>						
-
-							<div class="text-center">
-								<a href="ventas-campaign-fiel-companero.php" class="btn btn-primary">Regalá Sonrisas</a>
-							</div>
 						</div>
 
 						<div class="content_logos">
