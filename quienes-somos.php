@@ -401,7 +401,8 @@
 							<h3>ACTUALIDAD</h3>
 							<div class="line">
 								<p>
-	  							Se comenzó con el registro e investigación de tecnologías basadas en IA con el fin de desarrollar clínica médica para luego su utilización en las zonas más vulnerables, al mismo tiempo se crea el programa RENACERE por el cual los profesionales que integran el centro de i y d  logran la medicina integrativa la cual junto a AI GENÓMICA Y TELOMEROS logran brindar a Padrinos del Bienestar (primero ellos ayúdate y el antienvejecimiento interviniendo en el mismo donan a nuestra organización se ayudan y ayudan a nuestra ONG a continuar expandiendo las nuevas tecnologías a las zonas más vulnerable (Suipacha Aristóbulo etc) 
+	  							Se comenzó el registro e investigación de tecnologías basadas en IA con el fin de desarrollar clínica médica para luego su utilización en las zonas más vulnerables. 
+	  							Al mismo tiempo, se crea el programa Rinascere por el cual los profesionales que integran el Centro de Investigación y Desarrollo logran la medicina integrativa. Esto se da junto a la IA Genómica y los Telomeros, que ayudan a formar el círculo de Bienestar; donde a quienes ayudamos luego se suman a la causa aportando a la investigación y, así, poder ayudar a más personas. 
 	  						</p>
 
 	  						<p>
