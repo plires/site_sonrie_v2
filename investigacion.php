@@ -88,7 +88,7 @@
 					<div class="data">
 						<p data-aos="fade-up"  class="outline">Un logro muy</p>
 						<p data-aos="fade-up"  class="logro_importante">Nuestro más importante logro <br>en estos años de investigación fue:</p>
-						<p data-aos="fade-up"  class="creacion">"La creación del PROGRAMA RENASCERE"</p>
+						<p data-aos="fade-up"  class="creacion">"La creación del PROGRAMA RINASCERE"</p>
 						<p data-aos="fade-up"  class="outline">"importante"</p>
 					</div>
 
@@ -140,7 +140,7 @@
 									</div>
 									<div class="description">
 										<p>
-											Para ello no solo nos basamos en áreas como la genética, exigenética sino también aportamos tecnología de Inteligencia Artificial y Bioinformática aplicada para desarrollar protocolos de estudios y valoración diagnóstica/estadística.
+											Para ello no solo nos basamos en áreas como la genética, epigenetica sino también aportamos tecnología de Inteligencia Artificial y Bioinformática aplicada para desarrollar protocolos de estudios y valoración diagnóstica/estadística.
 										</p>
 									</div>
 								</div>
