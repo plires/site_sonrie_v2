@@ -224,7 +224,7 @@
 
 						<div class="pb-video transition">
 							<img 
-								onclick="setValuesModal('Mariana Perez', 'Clinica Médica, Nutrición, Endocrinóloga', 'https://www.youtube.com/embed/IxOIK9ctoFM')" 
+								onclick="setValuesModal('Mariana Perez', 'Clinica Médica, Nutrición, Endocrinóloga', 'https://www.youtube.com/embed/J4a9Ns5i8BU')" 
 								data-bs-toggle="modal" 
 								data-bs-target="#testimoniosModal" 
 								class="img-fluid" 
@@ -235,7 +235,7 @@
 
 	          <div class="pb-video transition">
 							<img 
-								onclick="setValuesModal('Margarita Lopez', 'Paciente', 'https://www.youtube.com/embed/v1yW2u-mP9E')" 
+								onclick="setValuesModal('Margarita Lopez', 'Paciente', 'https://www.youtube.com/embed/j7nDMEFJC5E')" 
 								data-bs-toggle="modal" 
 								data-bs-target="#testimoniosModal" 
 								class="img-fluid" 
@@ -246,18 +246,18 @@
 
 	          <div class="pb-video transition">
 							<img 
-								onclick="setValuesModal('Julio Barnachea', 'Traumatologo', 'https://www.youtube.com/embed/aSkDYT_gxYE')" 
+								onclick="setValuesModal('Jorge Barnachea', 'Traumatologo', 'https://www.youtube.com/embed/zh46BN-KiAE')" 
 								data-bs-toggle="modal" 
 								data-bs-target="#testimoniosModal" 
 								class="img-fluid" 
 								src="./img/testimonios/testimonio-3.jpg" 
 								alt="testimonio 3">
-	            <label class="transition">Julio Barnachea</label>
+	            <label class="transition">Jorge Barnachea</label>
 	          </div>
 
 	          <div class="pb-video transition">
 							<img 
-								onclick="setValuesModal('Francisco Gambino', 'Ex Director Hospital Militar Central', 'https://www.youtube.com/embed/ETnP8QD_iPE')" 
+								onclick="setValuesModal('Francisco Gambino', 'Ex Director Hospital Militar Central', 'https://www.youtube.com/embed/ollAYKEzyYE')" 
 								data-bs-toggle="modal" 
 								data-bs-target="#testimoniosModal" 
 								class="img-fluid" 
@@ -268,7 +268,7 @@
 
 	          <div class="pb-video transition">
 							<img 
-								onclick="setValuesModal('Bedig Evaszian', 'Paciente', 'https://www.youtube.com/embed/lVYWeGgJl0k')" 
+								onclick="setValuesModal('Bedig Evaszian', 'Paciente', 'https://www.youtube.com/embed/E0PvcvGJTVg')" 
 								data-bs-toggle="modal" 
 								data-bs-target="#testimoniosModal" 
 								class="img-fluid" 
@@ -279,7 +279,7 @@
 
 	          <div class="pb-video transition">
 							<img 
-								onclick="setValuesModal('Ariel Sudan', 'Paciente', 'https://www.youtube.com/embed/ePC9nR-KzD8')" 
+								onclick="setValuesModal('Ariel Sudan', 'Paciente', 'https://www.youtube.com/embed/vmDMRMGtccc')" 
 								data-bs-toggle="modal" 
 								data-bs-target="#testimoniosModal" 
 								class="img-fluid" 
@@ -290,7 +290,7 @@
 
 	          <div class="pb-video transition">
 							<img 
-								onclick="setValuesModal('Alfredo Bertachini', 'Cardiología, Terapia Intensiva', 'https://www.youtube.com/embed/mw0hGxjo274')" 
+								onclick="setValuesModal('Alfredo Bertachini', 'Cardiología, Terapia Intensiva', 'https://www.youtube.com/embed/ucwTDnOpTWk')" 
 								data-bs-toggle="modal" 
 								data-bs-target="#testimoniosModal" 
 								class="img-fluid" 
